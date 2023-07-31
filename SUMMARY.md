@@ -17,3 +17,5 @@
   * [Public Groovy Script Console](technologies/jenkins/public-groovy-script-console.md)
 * [GitLab](technologies/gitlab/README.md)
   * [Private source code snippets exposed](technologies/gitlab/private-source-code-snippets-exposed.md)
+* [Symfony](technologies/symfony/README.md)
+  * [Sensitive data exposure](technologies/symfony/sensitive-data-exposure.md)

@@ -16,6 +16,12 @@ Visit the following application route to check if anonymous users are able to re
 
 Make sure you select the appropriate **visibility level** on your shared code snippets
 
+When for instance, you create a new code snippet, the visibility level will be set to **Private** by default:
+
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+Make sure to cross-check your saved settings before accidentally exposing any sensitive data.
+
 #### References:
 
 * [https://docs.gitlab.com/ee/user/snippets.html](https://docs.gitlab.com/ee/user/snippets.html)

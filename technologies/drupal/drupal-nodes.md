@@ -25,4 +25,5 @@ Keep incrementing the ID until you come an existing node ID and examine the resp
 #### References:
 
 * [https://twitter.com/adrien\_jeanneau/status/1273952564430725123](https://twitter.com/adrien\_jeanneau/status/1273952564430725123)
+* [https://www.drupal.org/docs/core-modules-and-themes/core-modules/node-module/about-nodes](https://www.drupal.org/docs/core-modules-and-themes/core-modules/node-module/about-nodes)
 

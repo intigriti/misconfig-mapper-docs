@@ -1,12 +1,11 @@
 ---
 description: >-
-  Atlassian Jira is a popular ticketing software among developers and IT teams
-  to keep track of several issues
+  GitLab is a popular version control system and is popular among DevOps teams
+  as it provides additional extensive CI/CD support.
 ---
 
 # GitLab
 
-### Misconfigurations:
+**Misconfigurations:**
 
-1. [Open Service Desk registration](../atlassian-jira/atlassian-jira-service-desk-open-signups.md)
-2.
+1. Private code repositories exposed

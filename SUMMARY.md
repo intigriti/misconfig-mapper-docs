@@ -14,4 +14,4 @@
   * [Open Signups](technologies/jenkins/open-signups.md)
   * [Public Groovy Script Console](technologies/jenkins/public-groovy-script-console.md)
 * [GitLab](technologies/gitlab/README.md)
-  * [Atlassian Jira Service Desk Open Signups](technologies/gitlab/atlassian-jira-service-desk-open-signups.md)
+  * [Private code repositories exposed](technologies/gitlab/private-code-repositories-exposed.md)

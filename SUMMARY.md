@@ -6,6 +6,8 @@
 
 ## Technologies
 
+* [DUPLICATE ME](technologies/duplicate-me/README.md)
+  * [Page title](technologies/duplicate-me/page-title.md)
 * [Google Groups](technologies/google-groups.md)
 * [Google Cloud Storage Bucket](technologies/google-cloud-storage-bucket.md)
 * [Atlassian Jira](technologies/atlassian-jira/README.md)
@@ -14,4 +16,4 @@
   * [Open Signups](technologies/jenkins/open-signups.md)
   * [Public Groovy Script Console](technologies/jenkins/public-groovy-script-console.md)
 * [GitLab](technologies/gitlab/README.md)
-  * [Private code repositories exposed](technologies/gitlab/private-code-repositories-exposed.md)
+  * [Private source code snippets exposed](technologies/gitlab/private-source-code-snippets-exposed.md)

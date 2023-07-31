@@ -8,4 +8,4 @@ description: >-
 
 **Misconfigurations:**
 
-1. Private code repositories exposed
+1. [Private source code snippets exposed](private-source-code-snippets-exposed.md)

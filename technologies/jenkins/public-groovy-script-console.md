@@ -1,0 +1,27 @@
+# Public Groovy Script Console
+
+#### Description:
+
+Groovy Script Console provides developers a way to run Groovy Script code right from their browser. However, in case permissions aren't configured properly, it could introduce another attack vector and often lead to remote code execution.
+
+#### Testing:
+
+Navigate to the following app route and check if Groovy Script Console is publically accessible:
+
+```
+/script
+```
+
+#### Remediation:
+
+Make sure to enforce proper account access restrictions and prevent non-administrator or non-privileged accounts from accessing the script console.
+
+To cross-check this, check the individual user permissions.
+
+Additionally, learn more about the capabilities of the [Script Console](https://www.jenkins.io/doc/book/managing/script-console/) and how to set [proper permissions based on each user or group role](https://www.jenkins.io/doc/book/security/access-control/permissions/).
+
+#### References:
+
+* [https://www.jenkins.io/doc/book/managing/script-console/](https://www.jenkins.io/doc/book/managing/script-console/)
+* [https://www.jenkins.io/doc/book/security/access-control/permissions/](https://www.jenkins.io/doc/book/security/access-control/permissions/)
+* [https://rohit-soni.medium.com/chaining-multiple-vulnerabilities-leads-to-remote-code-execution-rce-on-paytm-e77f2fd2295e](https://rohit-soni.medium.com/chaining-multiple-vulnerabilities-leads-to-remote-code-execution-rce-on-paytm-e77f2fd2295e)

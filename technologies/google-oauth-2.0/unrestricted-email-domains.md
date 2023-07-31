@@ -36,7 +36,7 @@ As Google OpenID Connect documentations specify, do not rely on this parameter t
 >
 > [_Learn more_](https://developers.google.com/identity/openid-connect/openid-connect#hd-param)
 
-
+Instead, control access for each service in your [Google Admin Console](https://admin.google.com).
 
 #### References:
 

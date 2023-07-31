@@ -1,9 +1,9 @@
 ---
-description: Symfony is a PHP framework used by
+description: Symfony is a popular PHP framework as it features reusable PHP components
 ---
 
 # Symfony
 
 **Misconfigurations:**
 
-1. Sensitive data exposure
+1. Debug mode enabled

@@ -1,8 +1,8 @@
-# Sensitive data exposure
+# Debug mode enabled
 
 #### Description:
 
-Post
+Symfony debug mode enabled
 
 #### Testing:
 

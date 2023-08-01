@@ -6,10 +6,22 @@ Groovy Script Console provides developers a way to run Groovy Script code right 
 
 #### Testing:
 
-Navigate to the following app route and check if Groovy Script Console is publically accessible:
+Navigate to the following app route and check if Groovy Script Console is publicly accessible:
 
 ```
 /script
+```
+
+You can also send a **POST** HTTP request to the **`/script`** or **`/scriptText`** app routes with your script contents in the **script** body parameter (make sure to change the positional variables with your own values):
+
+```bash
+curl -s 'https://jenkins.{HOST}/script' -X 'POST' --data 'script={SCRIPT}'
+```
+
+or:
+
+```bash
+curl -s 'https://jenkins.{HOST}/scriptText' -X 'POST' --data 'script={SCRIPT}'
 ```
 
 #### Remediation:

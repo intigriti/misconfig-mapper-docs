@@ -8,7 +8,7 @@ description: List of Technologies
 * [Google Cloud Storage Bucket](../technologies/google-cloud-storage-bucket.md)
 * [Atlassian Jira](../technologies/atlassian-jira/)
 * [Jenkins](../technologies/jenkins/)
-* Gitlab
-* Postman
-* Google SSO
-* Symfony
+* [Gitlab](../technologies/gitlab/)
+* [Google OAuth 2.0](../technologies/google-oauth-2.0/)
+* [Symfony](../technologies/symfony/)
+* [Drupal](../technologies/drupal/)

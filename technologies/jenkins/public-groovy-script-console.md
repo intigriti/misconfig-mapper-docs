@@ -28,7 +28,9 @@ curl -s 'https://jenkins.{HOST}/scriptText' -X 'POST' --data 'script={SCRIPT}'
 
 Make sure to enforce proper account access restrictions and prevent non-administrator or non-privileged accounts from accessing the script console.
 
-To cross-check this, check the individual user permissions.
+To cross-check this, check the individual user and group permissions:
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p><strong>Anonymous Users shouldn't have Administrator access</strong></p></figcaption></figure>
 
 Additionally, learn more about the capabilities of the [Script Console](https://www.jenkins.io/doc/book/managing/script-console/) and how to set [proper permissions based on each user or group role](https://www.jenkins.io/doc/book/security/access-control/permissions/).
 

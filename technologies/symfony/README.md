@@ -6,4 +6,4 @@ description: Symfony is a popular PHP framework as it features reusable PHP comp
 
 **Misconfigurations:**
 
-1. Debug mode enabled
+1. [Debug mode enabled](debug-mode-enabled.md)

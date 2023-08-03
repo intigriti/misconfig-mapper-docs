@@ -23,3 +23,6 @@
   * [Drupal Nodes](technologies/drupal/drupal-nodes.md)
 * [Symfony](technologies/symfony/README.md)
   * [Debug mode enabled](technologies/symfony/debug-mode-enabled.md)
+* [Laravel](technologies/laravel/README.md)
+  * [Debug mode enabled](technologies/laravel/debug-mode-enabled.md)
+  * [Laravel Telescope enabled in production](technologies/laravel/laravel-telescope-enabled-in-production.md)

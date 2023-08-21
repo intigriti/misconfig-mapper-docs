@@ -9,7 +9,7 @@
 * [DUPLICATE ME](technologies/duplicate-me/README.md)
   * [Page title](technologies/duplicate-me/page-title.md)
 * [Atlassian Confluence](technologies/atlassian-confluence/README.md)
-  * [Page title](technologies/atlassian-confluence/page-title.md)
+  * [Anonymous access to Remote API](technologies/atlassian-confluence/anonymous-access-to-remote-api.md)
 * [Atlassian BitBucket](technologies/atlassian-bitbucket/README.md)
   * [Public accessible private repositories](technologies/atlassian-bitbucket/public-accessible-private-repositories.md)
 * [Atlassian Jira](technologies/atlassian-jira/README.md)

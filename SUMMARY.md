@@ -15,7 +15,7 @@
 * [Atlassian BitBucket](technologies/atlassian-bitbucket/README.md)
   * [Public accessible private repositories](technologies/atlassian-bitbucket/public-accessible-private-repositories.md)
 * [Atlassian Jira](technologies/atlassian-jira/README.md)
-  * [\* Atlassian Jira Public Signup](technologies/atlassian-jira/atlassian-jira-public-signup.md)
+  * [Open User Registration](technologies/atlassian-jira/open-user-registration.md)
   * [Atlassian Jira Email Visibility](technologies/atlassian-jira/atlassian-jira-email-visibility.md)
   * [Atlassian Jira Service Desk Open Signups](technologies/atlassian-jira/atlassian-jira-service-desk-open-signups.md)
 * [Google Groups](technologies/google-groups.md)

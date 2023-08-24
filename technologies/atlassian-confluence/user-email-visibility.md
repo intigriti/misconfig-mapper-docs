@@ -1,4 +1,4 @@
-# User Email Visibility
+# \* User Email Visibility
 
 #### Description:
 
@@ -13,7 +13,7 @@
 To configure the visibility policy of user emails:
 
 1. Navigate to your Confluence instance and sign in
-2. Open your Administrator Settings by clicking on the gear icon next to your profile picture
+2. Open your **Administrator Settings** by clicking on the gear icon next to your profile picture
 3. In your side navigation bar, scroll down to **Security** and open **Security Configurations**
 4. Make sure that **Anonymous Access to Remote API** is **disabled**
 5. Save your changes

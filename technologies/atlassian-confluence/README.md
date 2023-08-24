@@ -9,6 +9,9 @@ description: >-
 **Misconfigurations:**
 
 1. [Anonymous access to Remote API](page-title.md)
-2. [User Email Visibility](user-email-visibility.md)
+2. [Disabled XSRF Protection](disabled-xsrf-protection.md)
+3. [User Email Visibility](user-email-visibility.md)
 
-\-- [https://confluence.atlassian.com/doc/configuring-confluence-security-151515.html](https://confluence.atlassian.com/doc/configuring-confluence-security-151515.html)
+**More references:**
+
+[https://confluence.atlassian.com/doc/configuring-confluence-security-151515.html](https://confluence.atlassian.com/doc/configuring-confluence-security-151515.html)

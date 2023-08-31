@@ -1,35 +1,51 @@
 ---
 description: >-
-  Google Groups can be left misconfigured and leak sensitive company data (like
+  Google Docs can be left misconfigured and leak internal company data (like
   documents) if view permissions are left public
 ---
 
-# \* Google Docs
+# Google Docs
 
 ### Misconfigured Read Permissions:
 
 #### Description:
 
-Google Groups can serve as a public forum to bring up issues or other company or organisation-related news to members but can also be used for internal use only.\
+Google Docs is a popular web-based document editor and often used within teams to exchange data in documents with each other.\
 \
-These permissions can be misconfigured and it's always recommended to check if the company you're targeting has a private Google Group setup that has misconfigured access control settings.
+Each document can be **viewed by anyone** if the link ever gets referenced somewhere (for example chats, emails, screenshots, or recordings), indexed or leaked somewhere when the **document's view permissions are not set properly**.
 
 #### Testing:
 
-You can easily do so by using search filters that search engines like Google provides:
+A Google Docs link is easy recognizable, an example:
 
 ```
-site:groups.google.com "{companyName}"
+https://docs.google.com/document/d/{documentId}/edit
 ```
 
 #### Remediation:
 
-It is always recommended to make sure that in case your Google Group is intended for a select few members only, to **properly set your privacy settings**.
+If the document is not meant to be public, cross-check your **General Access** settings for that specific file.\
+\
+To do so:
 
-When, for instance, you create a group, the second step prompts you to select Privacy settings. Make sure to revise your options before unintentionally making changes that could introduce a new attack vector.
+1. Open your Google Document file
+2. Click on **File**
+3. Click on **Share**
+4. Select **Share with others**
+5. A new popup will appear
+6. Make sure to select **Restricted** under General Access
+7. Finally, click on **Done** to save your settings
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Choose privacy settings for a new Google Group</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>As you can see, in this example the full document link was shared (intentionally). This happens more often than expected.</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
+#### Potential Impact:
+
+Team members may occasionally share Google Documents with other co-workers and enable access for anyone. It also happens that they share direct link through various mediums (screenshots, screen recordings, emails, etc.)\
+\
+If the document happens to contain sensitive company data or data that is meant for internal use only, you introduce the risk of it **being accessed by unauthorized users**.
 
 #### References:
 
-* [https://workspaceupdates.googleblog.com/2018/06/configure-your-google-groups-settings.html](https://workspaceupdates.googleblog.com/2018/06/configure-your-google-groups-settings.html)
+* [https://support.google.com/docs/answer/2494893](https://support.google.com/docs/answer/2494893)

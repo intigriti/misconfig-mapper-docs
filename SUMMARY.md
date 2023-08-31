@@ -19,7 +19,7 @@
   * [Atlassian Jira Email Visibility](technologies/atlassian-jira/atlassian-jira-email-visibility.md)
   * [Atlassian Jira Service Desk Open Signups](technologies/atlassian-jira/atlassian-jira-service-desk-open-signups.md)
 * [Google Groups](technologies/google-groups.md)
-* [\* Google Docs](technologies/google-docs.md)
+* [Google Docs](technologies/google-docs.md)
 * [Google Cloud Storage Bucket](technologies/google-cloud-storage-bucket.md)
 * [Google OAuth 2.0](technologies/google-oauth-2.0/README.md)
   * [Unrestricted email domains](technologies/google-oauth-2.0/unrestricted-email-domains.md)

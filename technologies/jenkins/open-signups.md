@@ -20,7 +20,7 @@ Make sure to disable signups for Jenkins. You can easily do so by:
 2. And make sure that the option **Allow users to signup** is disabled
 3. Finally, **Apply** and **Save** your changes
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### References:
 

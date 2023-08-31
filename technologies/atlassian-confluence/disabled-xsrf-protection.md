@@ -6,8 +6,6 @@ Atlassian Confluence provides users the ability to include themes and external p
 \
 Some older themes or plugins may require users to disable XSRF Protection as pointed out below:
 
-
-
 > _Some third-party or deprecated Confluence themes will not work with the new Confluence XSRF protection. You may disable XSRF protection to support old themes at the cost of reducing security._\
 > \
 > _- Atlassian Confluence Docs_
@@ -17,7 +15,7 @@ However, **turning off the built-in XSRF Protection** in your Confluence instanc
 
 #### Testing:
 
-In case XSRF Protection is turned of, bad actors could post comments on other user's behalf by just sending them a link to an attacker controlled site that replicates the POST request.\
+In case XSRF Protection is turned off, bad actors could post comments on other user's behalf by just sending them a link to an attacker controlled site that replicates the POST request.\
 \
 The POST request will request the server to create a comment on the victim's behalf without their knowledge.
 
@@ -31,7 +29,11 @@ It is always recommended to **upgrade and use the latest version available** of 
 4. Make sure that **XSRF Protection for adding comments** is **enabled**
 5. Save your changes
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+#### Potential Impact:
+
+When **XSRF-protection** is **turned off**, it is possible for malicious users to target authenticated users by sending them a **specially crafted link that'd automatically** for example **post a comment** on the **victim's behalf**.
 
 #### References:
 

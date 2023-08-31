@@ -14,11 +14,39 @@ Both XML-RPC and SOAP API are currently depreciated and replaced by the REST API
 \
 Both APIs are accessible through the following endpoints on your Confluence instance:
 
-**XML-RPC:**
+**XML-RPC HTTP Request to retrieve a specific page for example:**
 
+```http
+POST /rpc/xmlrpc HTTP/1.1
+Host: confluence.example.com
+Content-Type: text/xml
+...
+
+<?xml version="1.0" encoding="UTF-8"?>
+<methodCall>
+ <methodName>confluence2.getPage</methodName>
+ <params>
+  <param>
+   <value>
+    <string>{SPACE_KEY}</string>
+   </value>
+  </param>
+  <param>
+   <value>
+    <string>{PAGE_TITLE}</string>
+   </value>
+  </param>
+ </params>
+</methodCall>
 ```
-/rpc/xmlrpc
+
+or **using cURL**:
+
+```bash
+curl -X POST -H 'Content-Type: text/xml' -d '<?xml version="1.0" encoding="UTF-8"?><methodCall><methodName>confluence2.getPage</methodName><params><param><value><string>{SPACE_KEY}</string></value></param><param><value><string>{PAGE_TITLE}</string></value></param></params></methodCall>' http://confluence.example.com/rpc/xmlrpc
 ```
+
+_Replace **{SPACE\_KEY}** with your Confluence team's Space Key (this can be found over_ [_in your URL bar_](https://confluence.atlassian.com/doc/space-keys-829076188.html)_) and **{PAGE\_TITLE}** with the post's page title._
 
 #### SOAP:
 
@@ -38,10 +66,13 @@ It is always recommended to **upgrade and use the latest version available** of 
 
 <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
+#### Potential Impact:
 
+It is possible for a **bad actor to conduct destructive changes in bulk** with the depreciated Remote API enabled and when anonymous access is allowed.
 
 #### References:
 
+* [https://developer.atlassian.com/server/confluence/remote-confluence-methods/](https://developer.atlassian.com/server/confluence/remote-confluence-methods/)
 * [https://developer.atlassian.com/server/confluence/confluence-xml-rpc-and-soap-apis/](https://developer.atlassian.com/server/confluence/confluence-xml-rpc-and-soap-apis/)
 * [https://confluence.atlassian.com/doc/anonymous-access-to-remote-api-151028.html](https://confluence.atlassian.com/doc/anonymous-access-to-remote-api-151028.html)
 

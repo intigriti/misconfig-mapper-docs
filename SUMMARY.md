@@ -8,10 +8,12 @@
 
 * [DUPLICATE ME](technologies/duplicate-me/README.md)
   * [Page title](technologies/duplicate-me/page-title.md)
+* [Slack](technologies/slack/README.md)
+  * [Signup with non-verified email domains](technologies/slack/signup-with-non-verified-email-domains.md)
 * [Atlassian Confluence](technologies/atlassian-confluence/README.md)
   * [Anonymous access to Remote API](technologies/atlassian-confluence/page-title.md)
   * [Disabled XSRF Protection](technologies/atlassian-confluence/disabled-xsrf-protection.md)
-  * [\* User Email Visibility](technologies/atlassian-confluence/user-email-visibility.md)
+  * [User Email Visibility](technologies/atlassian-confluence/user-email-visibility.md)
 * [Atlassian BitBucket](technologies/atlassian-bitbucket/README.md)
   * [Public accessible private repositories](technologies/atlassian-bitbucket/public-accessible-private-repositories.md)
 * [Atlassian Jira](technologies/atlassian-jira/README.md)

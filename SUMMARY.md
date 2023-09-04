@@ -8,6 +8,8 @@
 
 * [DUPLICATE ME](technologies/duplicate-me/README.md)
   * [Page title](technologies/duplicate-me/page-title.md)
+* [Figma](technologies/figma/README.md)
+  * [View access misconfiguration](technologies/figma/view-access-misconfiguration.md)
 * [Slack](technologies/slack/README.md)
   * [Signup with non-verified email domains](technologies/slack/signup-with-non-verified-email-domains.md)
 * [Atlassian Confluence](technologies/atlassian-confluence/README.md)

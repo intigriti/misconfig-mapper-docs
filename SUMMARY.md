@@ -35,7 +35,7 @@
   * [Private source code snippets exposed](technologies/gitlab/private-source-code-snippets-exposed.md)
 * [Drupal](technologies/drupal/README.md)
   * [Drupal Nodes](technologies/drupal/drupal-nodes.md)
-* [Symfony](technologies/symfony/README.md)
+* [\* Symfony](technologies/symfony/README.md)
   * [Debug mode enabled](technologies/symfony/debug-mode-enabled.md)
 * [Laravel](technologies/laravel/README.md)
   * [Debug mode enabled](technologies/laravel/debug-mode-enabled.md)

@@ -22,8 +22,13 @@ Keep incrementing the ID until you come an existing node ID and examine the resp
 
 
 
+#### Potential Impact:
+
+Drupal Nodes can expose a variety of potential sensitive data, for example private data from clients or other users as well as internal pages only meant to be accessed by site administrators.
+
 #### References:
 
 * [https://twitter.com/adrien\_jeanneau/status/1273952564430725123](https://twitter.com/adrien\_jeanneau/status/1273952564430725123)
 * [https://www.drupal.org/docs/core-modules-and-themes/core-modules/node-module/about-nodes](https://www.drupal.org/docs/core-modules-and-themes/core-modules/node-module/about-nodes)
+* [https://web.archive.org/web/20220203132234/https://0xblackbird.github.io/blog/post1](https://web.archive.org/web/20220203132234/https://0xblackbird.github.io/blog/post1)
 

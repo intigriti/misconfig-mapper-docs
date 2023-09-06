@@ -20,7 +20,7 @@ Navigate to the following app route:
 
 Telescope is a feature intended for development purposes only, it should be disabled in production environments.\
 \
-Just as the official documentation states, when installing Laravel Telescope, make sure to pass the `--dev` CLI flag to only install it locally (or in your development environment):
+[Just as the official documentation states](https://laravel.com/docs/10.x/telescope#local-only-installation), when installing Laravel Telescope, make sure to pass the `--dev` CLI flag to only install it locally (or in your development environment):
 
 ```basic
 composer require laravel/telescope --dev
@@ -31,7 +31,7 @@ Afterwards, it is **required to only register Telescope service in local environ
 ```php
 /**
  * Register any application services.
- */
+**/
 public function register(): void
 {
     if ($this->app->environment('local')) {

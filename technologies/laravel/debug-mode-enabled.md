@@ -26,6 +26,10 @@ APP_DEBUG=false
 ...
 ```
 
+#### Potential Impact:
+
+In case malicious users get hold of the APP\_KEY secret, they'd be able to encrypt any session token and other app secrets introducing a whole new set of security vulnerabilities to the company.
+
 #### References:
 
 * [https://laravel.com/docs/10.x/deployment#debug-mode](https://laravel.com/docs/10.x/deployment#debug-mode)

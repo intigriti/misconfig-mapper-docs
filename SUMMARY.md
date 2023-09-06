@@ -3,6 +3,7 @@
 * [Project 1](README.md)
   * [Introduction](project-1/introduction.md)
   * [Technologies](project-1/technologies.md)
+  * [CLI Tool](project-1/cli-tool.md)
 
 ## Technologies
 

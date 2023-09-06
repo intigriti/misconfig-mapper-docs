@@ -2,9 +2,11 @@
 
 #### Description:
 
-Laravel can expose sensitive data when debug mode is left enabled.
-
-Sensitive data can include (PHP) source code and in severe cases also environment variables, including the `APP_KEY`, a key that is responsible for encrypting all session tokens and even database connection strings.
+Laravel Telescope is a debugging tool often only enabled in local environments to help developers debug Laravel applications.\
+\
+Telescope can help developers look at incoming HTTP requests, view exceptions, logs, database queries and much more.\
+\
+It can sometimes happens that Telescope is enabled on production.
 
 #### Testing:
 
@@ -16,8 +18,21 @@ Navigate to the following app route:
 
 #### Remediation:
 
-Telescope is a feature intended for development purposes only, it should be disabled in production environments.
+Telescope is a feature intended for development purposes only, it should be disabled in production environments.\
+\
+Just as the official documentation states, when installing Laravel Telescope, make sure to pass the `--dev` CLI flag to only install it locally (or in your development environment):
+
+```
+composer require laravel/telescope --dev
+```
+
+#### Potential Impact:
+
+Laravel Telescope prints provides several debugging features including logs and database queries for example that may contain sensitive information.\
+\
+This information can be used against a company in further attacks (think about sensitive tokens and app secrets being logged).
 
 #### References:
 
 * [https://laravel.com/docs/10.x/telescope](https://laravel.com/docs/10.x/telescope)
+* [https://laravel.com/docs/10.x/telescope#local-only-installation](https://laravel.com/docs/10.x/telescope#local-only-installation)

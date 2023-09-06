@@ -42,6 +42,10 @@ To verify that proper permissions are set:
 
 To further secure your assets, it is advisable to make use of and set proper [IAM roles](https://cloud.google.com/iam).
 
+#### Potential Impact:
+
+Depending on what data is stored on the GCP Storage Bucket, this could lead to several high-severity issues such as sensitive data leak, including personal identifiable information (PII) but also other type of documents that may contain internal company data.
+
 #### References:
 
 * [https://cloud.google.com/storage/docs/access-control/making-data-public#buckets](https://cloud.google.com/storage/docs/access-control/making-data-public#buckets)

@@ -8,7 +8,7 @@ However, this optional query parameter can be altered or even omitted to bypass 
 
 #### Testing:
 
-When you come across a Google Login put infront of a restricted asset, try altering the **`hd`** query parameter to a domain you control (or have access to):
+When you come across a Google Login put in front of a restricted asset, try altering the **`hd`** query parameter to a domain you control (or have access to):
 
 ```http
 https://accounts.google.com/o/oauth2/v2/auth?
@@ -37,6 +37,10 @@ As Google OpenID Connect documentations specify, do not rely on this parameter t
 > [_Learn more_](https://developers.google.com/identity/openid-connect/openid-connect#hd-param)
 
 Instead, control access for each service in your [Google Admin Console](https://admin.google.com).
+
+#### Potential Impact:
+
+Unathorized users can sign in and impose as authorized users and additionally gain access to other services within a Google work group.
 
 #### References:
 

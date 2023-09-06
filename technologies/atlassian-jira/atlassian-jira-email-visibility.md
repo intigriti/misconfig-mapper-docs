@@ -23,6 +23,10 @@ Make sure to set the proper setting for email visibility. One way to do so is:
 
 <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
+#### Potential Impact:
+
+Email-addresses could be used in further targeted exploitation attacks on company employees.
+
 #### References:
 
 *

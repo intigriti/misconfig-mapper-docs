@@ -22,6 +22,10 @@ When for instance, you create a new code snippet, the visibility level will be s
 
 Make sure to cross-check your saved settings before accidentally exposing any sensitive data.
 
+#### Potential Impact:
+
+Unintentionally exposing private source code snippets can introduce a risk to your company in case the code snippet includes hard coded secrets that can be used in further attacks, or just private source in general as it can allow unauthorized users to manually examine it.
+
 #### References:
 
 * [https://docs.gitlab.com/ee/user/snippets.html](https://docs.gitlab.com/ee/user/snippets.html)

@@ -2,7 +2,7 @@
 
 #### Description:
 
-It is possible that anyone can signup in your Atlassian Jira instance due to a misconfiguration in the domain allow list
+It is possible that anyone can signup in your Atlassian Jira instance due to a misconfiguration in the domain allow list.
 
 #### Testing:
 
@@ -24,6 +24,10 @@ Make sure to set the proper setting for email visibility. One way to do so is:
 6. Save your settings
 
 <figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+#### Potential Impact:
+
+In case registrations are left open for anyone to signup to your Jira Instance, depending on the in-app permissions set, it could mean that new users get access to internal-only resources, such as support tickets, company metrics or even personal identifiable information (PII) of customers or clients.
 
 #### References:
 

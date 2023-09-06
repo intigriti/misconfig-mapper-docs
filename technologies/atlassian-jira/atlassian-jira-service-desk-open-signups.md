@@ -34,8 +34,16 @@ To do so:
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
+#### Potential Impact:
+
+In the event that everyone can signup for an Atlassian Service Desk account, unauthorized users would be able to view and read sensitive data such as support tickets, internal-only company data and in severe cases also personal identifiable information of employees and customers.\
+\
+In addition to that and depending how dependent an organization or company is on Atlassian's Service Desk:\
+\
+It is also possible to request internal company support for for example a new access badge, requesting employment contract changes (salaries), requesting access to third-party accounts (social media accounts) and so on.
+
 #### References:
 
-* [https://medium.com/@intideceukelaire/hundreds-of-internal-servicedesks-exposed-due-to-covid-19-ecd0baec87bd](https://medium.com/@intideceukelaire/hundreds-of-internal-servicedesks-exposed-due-to-covid-19-ecd0baec87bdhttps://support.atlassian.com/jira-service-management-cloud/docs/customer-permissions-for-your-service-project-and-jira-site/)
+* [https://medium.com/@intideceukelaire/hundreds-of-internal-servicedesks-exposed-due-to-covid-19-ecd0baec87bd](https://medium.com/@intideceukelaire/hundreds-of-internal-servicedesks-exposed-due-to-covid-19-ecd0baec87bd)
 * [https://support.atlassian.com/jira-service-management-cloud/docs/customer-permissions-for-your-service-project-and-jira-site/](https://medium.com/@intideceukelaire/hundreds-of-internal-servicedesks-exposed-due-to-covid-19-ecd0baec87bdhttps://support.atlassian.com/jira-service-management-cloud/docs/customer-permissions-for-your-service-project-and-jira-site/)
 * [https://support.atlassian.com/user-management/docs/control-how-users-get-access-to-products/](https://support.atlassian.com/user-management/docs/control-how-users-get-access-to-products/)

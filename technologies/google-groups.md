@@ -30,6 +30,10 @@ When, for instance, you create a group, the second step prompts you to select Pr
 
 <figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Choose privacy settings for a new Google Group</p></figcaption></figure>
 
+#### Potential Impact:
+
+Misconfigured Google Groups permissions can lead to several other issues within the organization. Especially if sensitive data is exchanged on non-private (without the members knowledge) fora.
+
 #### References:
 
 * [https://workspaceupdates.googleblog.com/2018/06/configure-your-google-groups-settings.html](https://workspaceupdates.googleblog.com/2018/06/configure-your-google-groups-settings.html)

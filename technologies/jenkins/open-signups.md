@@ -22,6 +22,14 @@ Make sure to disable signups for Jenkins. You can easily do so by:
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
+#### Potential Impact:
+
+Unauthorized users are able to create an account, this often introduces no potential risk.\
+\
+However, if the in-app permissions are not set and give newly signed up users too much privileges, it could result in a new attack vector.\
+\
+This could introduce several new security anomalies to your company (especially code execution as Jenkins CI/CD tool).
+
 #### References:
 
 * [https://rohit-soni.medium.com/chaining-multiple-vulnerabilities-leads-to-remote-code-execution-rce-on-paytm-e77f2fd2295e](https://rohit-soni.medium.com/chaining-multiple-vulnerabilities-leads-to-remote-code-execution-rce-on-paytm-e77f2fd2295e)

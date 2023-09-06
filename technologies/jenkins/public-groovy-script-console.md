@@ -34,6 +34,10 @@ To cross-check this, check the individual user and group permissions:
 
 Additionally, learn more about the capabilities of the [Script Console](https://www.jenkins.io/doc/book/managing/script-console/) and how to set [proper permissions based on each user or group role](https://www.jenkins.io/doc/book/security/access-control/permissions/).
 
+#### Potential Impact:
+
+Jenkin's Groovy Script Console is capable of several high-level execution tasks and thereby can allow malicious users to directly access the Jenkins runtime and practically do anything.
+
 #### References:
 
 * [https://www.jenkins.io/doc/book/managing/script-console/](https://www.jenkins.io/doc/book/managing/script-console/)

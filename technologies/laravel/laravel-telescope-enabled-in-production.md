@@ -22,8 +22,23 @@ Telescope is a feature intended for development purposes only, it should be disa
 \
 Just as the official documentation states, when installing Laravel Telescope, make sure to pass the `--dev` CLI flag to only install it locally (or in your development environment):
 
-```
+```basic
 composer require laravel/telescope --dev
+```
+
+Afterwards, it is **required to only register Telescope service in local environments**:
+
+```php
+/**
+ * Register any application services.
+ */
+public function register(): void
+{
+    if ($this->app->environment('local')) {
+        $this->app->register(\Laravel\Telescope\TelescopeServiceProvider::class);
+        $this->app->register(TelescopeServiceProvider::class);
+    }
+}
 ```
 
 #### Potential Impact:

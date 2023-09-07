@@ -29,7 +29,7 @@ description: List of Technologies
 * [ ] Office365 ([https://www.cisa.gov/news-events/analysis-reports/ar19-133a](https://www.cisa.gov/news-events/analysis-reports/ar19-133a))
 * [ ] Monday.com
 * [ ] Asana
-* [ ] Trello
+* [x] Trello
 * [ ] Favro
 * [x] Jira Atlassian
 * [ ] Wiki Atlassian
@@ -37,7 +37,7 @@ description: List of Technologies
 * [ ] Intercom
 * [ ] Clickup
 * [ ] Basecamp
-* [ ] Slack
+* [x] Slack
 * [ ] Zendesk
 * [ ] Gitlab
 * [ ] Github

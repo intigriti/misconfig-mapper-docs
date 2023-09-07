@@ -9,6 +9,8 @@
 
 * [DUPLICATE ME](technologies/duplicate-me/README.md)
   * [Page title](technologies/duplicate-me/page-title.md)
+* [Trello](technologies/trello/README.md)
+  * [View Permissions on Trello Boards](technologies/trello/view-permissions-on-trello-boards.md)
 * [Figma](technologies/figma/README.md)
   * [View access misconfiguration](technologies/figma/view-access-misconfiguration.md)
 * [Slack](technologies/slack/README.md)

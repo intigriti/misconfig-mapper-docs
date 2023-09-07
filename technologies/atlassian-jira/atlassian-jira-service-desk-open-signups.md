@@ -32,7 +32,7 @@ To do so:
 3. Next, remove all access from **Any domain** if you haven't already
 4. Verify and add your own domain to only allow users with your whitelisted domain to get access
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Potential Impact:
 

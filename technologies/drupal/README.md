@@ -8,4 +8,4 @@ description: >-
 
 **Misconfigurations:**
 
-1. [Drupal Nodes](drupal-nodes.md)
+1. [Drupal Nodes](drupal-nodes-with-misconfigured-access-controls.md)

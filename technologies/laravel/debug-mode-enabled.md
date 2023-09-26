@@ -10,9 +10,9 @@ Sensitive data can include (PHP) source code and in severe cases also environmen
 
 Navigate to the following app route and manually examine the response:
 
-```
-/profiles
-```
+<pre><code><strong>/profiles
+</strong><strong>/_debugbar
+</strong></code></pre>
 
 #### Remediation:
 

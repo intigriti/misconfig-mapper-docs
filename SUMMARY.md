@@ -40,5 +40,5 @@
 * [\* Symfony](technologies/symfony/README.md)
   * [Debug mode enabled](technologies/symfony/debug-mode-enabled.md)
 * [Laravel](technologies/laravel/README.md)
-  * [Debug mode enabled](technologies/laravel/debug-mode-enabled.md)
-  * [Laravel Telescope enabled in production](technologies/laravel/laravel-telescope-enabled-in-production.md)
+  * [Debug Mode Enabled](technologies/laravel/debug-mode-enabled.md)
+  * [Laravel Telescope Enabled In Production](technologies/laravel/laravel-telescope-enabled-in-production.md)

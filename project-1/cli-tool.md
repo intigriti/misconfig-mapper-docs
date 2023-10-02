@@ -8,9 +8,9 @@ The tool is based on templates and is versatile. New services can be easily adde
 
 ### Features:
 
-* The CLI tool is based on templates provided in the `services.json` file. You can add as many as you want. See _Template section_ for more information on how to add a template.
+* The CLI tool is based on templates provided in the `services.json` file. You can add as many as you want. See [_Templates section_](cli-tool.md#templates) for more information on how to add a template.
 * If you provide a company name, the tool will automatically generate permutations based on your provided keyword and try to find any service that is used.
-* You can optionally choose to only enumerate services and not perform any active tests (see more on _usage section_).
+* You can optionally choose to only enumerate services and not perform any active tests (see more on [_Usage section_](cli-tool.md#usage)).
 
 ### Usage:
 
@@ -129,7 +129,7 @@ Example: https://{TARGET}.example.com will allow the tool to look for:
 * ...
 {% endhint %}
 
-**Path:**
+#### **Path:**
 
 **Type:** string
 
@@ -146,19 +146,19 @@ Example: /app/{TARGET} will allow the tool to look for:
 * ...
 {% endhint %}
 
-**Service:**
+#### **Service:**
 
 **Type:** string
 
 The `service` field is used to display the service name in the CLI output results to easily identify what service is currently being scanned for.
 
-**Description:**
+#### **Description:**
 
 **Type:** string
 
 `description` field is used to display the service description in the CLI output results once a service has been enumerated or identified and validated to be vulnerable.
 
-**Reproduction Steps:**
+#### **Reproduction Steps:**
 
 **Type:** string array
 
@@ -168,19 +168,19 @@ The `reproductionSteps` field is used to report back on how to reproduce the fou
 Each step should be in a separate array entry. You can specify as many steps as you'd like to.
 {% endhint %}
 
-**Passive:**
+#### **Passive:**
 
 **Type:** string array
 
 The `passive` field is used to enumerate & validate the existence of a third-party service for your target. Make sure to define strict keywords to minimize the chances of false positive results.
 
-**Active:**
+#### **Active:**
 
 **Type:** string array
 
 The `active` field is used to validate the existence of a misconfigured third-party service for your target. Make sure to define strict keywords to minimize the chances of false positive results.
 
-**References:**
+#### **References:**
 
 **Type:** string array
 

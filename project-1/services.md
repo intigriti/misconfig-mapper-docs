@@ -4,42 +4,38 @@ description: List of services covered.
 
 # Services
 
-* [Google Groups](../services/google-groups.md)
-* [Google Cloud Storage Bucket](../services/google-cloud-storage-bucket.md)
+* [Trello](../services/trello/)
+* [Figma](../services/figma/)
+* [Slack](../services/slack/)
+* [Atlassian Confluence](../services/atlassian-confluence/)
+* [Atlassian BitBucket](../services/atlassian-bitbucket/)
 * [Atlassian Jira](../services/atlassian-jira/)
-* [Jenkins](../services/jenkins/)
-* [Gitlab](../services/gitlab/)
+* [Google Groups](../services/google-groups.md)
+* [Google Docs](../services/google-docs.md)
+* [Google Cloud Storage Bucket](../services/google-cloud-storage-bucket.md)
 * [Google OAuth 2.0](../services/google-oauth-2.0/)
-* [Symfony](../services/symfony/)
+* [Jenkins](../services/jenkins/)
+* [GitLab](../services/gitlab/)
 * [Drupal](../services/drupal/)
-
-
+* [Symfony](../services/symfony/)
+* [Laravel](../services/laravel/)
+* GraphQL (introspection query enabled)
+* Wordpress (open signups, wp-json user enumeration)
+* Python Flask (debug mode enabled)
 
 **TODO:**
-
-* GraphQL (introspection query enabled)
-* Python Flask (debug mode enabled)
-* Symfony (debug mode enabled)
-* WordPress (open signups, wp-json user enumeration)
-
-<!---->
 
 * [ ] Productboard
 * [ ] Miro
 * [ ] Office365 ([https://www.cisa.gov/news-events/analysis-reports/ar19-133a](https://www.cisa.gov/news-events/analysis-reports/ar19-133a))
 * [ ] Monday.com
 * [ ] Asana
-* [x] Trello
 * [ ] Favro
-* [x] Jira Atlassian
 * [ ] Wiki Atlassian
-* [x] Servicedesk
 * [ ] Intercom
 * [ ] Clickup
 * [ ] Basecamp
-* [x] Slack
 * [ ] Zendesk
-* [ ] Gitlab
 * [ ] Github
 * [ ] Hubspot
 * [ ] Azure DevOps

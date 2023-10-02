@@ -9,6 +9,8 @@
 
 * [DUPLICATE ME](services/duplicate-me/README.md)
   * [Page title](services/duplicate-me/page-title.md)
+* [Symfony](services/symfony/README.md)
+  * [Symfony Profiler Enabled](services/symfony/symfony-profiler-enabled.md)
 * [Trello](services/trello/README.md)
   * [View Permissions on Trello Boards](services/trello/view-permissions-on-trello-boards.md)
 * [Figma](services/figma/README.md)
@@ -37,8 +39,6 @@
   * [Gitlab Private Source Code Snippets Exposed](services/gitlab/gitlab-private-source-code-snippets-exposed.md)
 * [Drupal](services/drupal/README.md)
   * [Drupal Nodes with Misconfigured Access Controls](services/drupal/drupal-nodes-with-misconfigured-access-controls.md)
-* [\* Symfony](services/symfony/README.md)
-  * [Debug mode enabled](services/symfony/debug-mode-enabled.md)
 * [Laravel](services/laravel/README.md)
   * [Debug Mode Enabled](services/laravel/debug-mode-enabled.md)
   * [Laravel Telescope Enabled In Production](services/laravel/laravel-telescope-enabled-in-production.md)

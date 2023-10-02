@@ -1,17 +1,17 @@
 ---
-description: List of Technologies
+description: List of services covered.
 ---
 
-# Technologies
+# Services
 
-* [Google Groups](../technologies/google-groups.md)
-* [Google Cloud Storage Bucket](../technologies/google-cloud-storage-bucket.md)
-* [Atlassian Jira](../technologies/atlassian-jira/)
-* [Jenkins](../technologies/jenkins/)
-* [Gitlab](../technologies/gitlab/)
-* [Google OAuth 2.0](../technologies/google-oauth-2.0/)
-* [Symfony](../technologies/symfony/)
-* [Drupal](../technologies/drupal/)
+* [Google Groups](../services/google-groups.md)
+* [Google Cloud Storage Bucket](../services/google-cloud-storage-bucket.md)
+* [Atlassian Jira](../services/atlassian-jira/)
+* [Jenkins](../services/jenkins/)
+* [Gitlab](../services/gitlab/)
+* [Google OAuth 2.0](../services/google-oauth-2.0/)
+* [Symfony](../services/symfony/)
+* [Drupal](../services/drupal/)
 
 
 

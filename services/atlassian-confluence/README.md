@@ -8,7 +8,7 @@ description: >-
 
 **Misconfigurations:**
 
-1. [Anonymous access to Remote API](page-title.md)
+1. [Anonymous access to Remote API](anonymous-access-to-remote-api.md)
 2. [Disabled XSRF Protection](disabled-xsrf-protection.md)
 3. [User Email Visibility](user-email-visibility.md)
 

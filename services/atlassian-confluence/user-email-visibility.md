@@ -25,7 +25,7 @@ To configure the visibility policy of user emails on older versions of Atlassian
 5. Select **Only visible to site administrators** from the **User email visibility** dropdown.
 6. Save your changes
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Latest versions of Confluence don't allow the Administrator to enforce email visibility settings. Instead, each individual user can now do so through his/her personal Atlassian ID portal.
 

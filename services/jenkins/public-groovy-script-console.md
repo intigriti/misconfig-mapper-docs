@@ -30,7 +30,7 @@ Make sure to enforce proper account access restrictions and prevent non-administ
 
 To cross-check this, check the individual user and group permissions:
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p><strong>Anonymous Users shouldn't have Administrator access</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p><strong>Anonymous Users shouldn't have Administrator access</strong></p></figcaption></figure>
 
 Additionally, learn more about the capabilities of the [Script Console](https://www.jenkins.io/doc/book/managing/script-console/) and how to set [proper permissions based on each user or group role](https://www.jenkins.io/doc/book/security/access-control/permissions/).
 

@@ -12,11 +12,41 @@ The tool is based on templates and is versatile. New services can be easily adde
 * If you provide a company name, the tool will automatically generate permutations based on your provided keyword and try to find any service that is used.
 * You can optionally choose to only enumerate services and not perform any active tests (see more on [_Usage section_](cli-tool.md#usage)).
 
+### Installation:
+
+1. Clone this repository:
+
+```bash
+$ git clone {GH_REPO}
+```
+
+2. Run the pre-compiled binary (see [usage](cli-tool.md#usage) for more information).
+
+```bash
+$ ./main -help
+```
+
+#### From source:
+
+In case you'd want to build your own version from source, make sure you have the latest version of Golang installed. To verify your installation, run:
+
+```bash
+$ go version
+  go version go1.21.1 linux/amd64
+```
+
+1. Next, compile your own binary from source:
+
+<pre class="language-bash"><code class="lang-bash"><strong>$ go build main.go -o main
+</strong></code></pre>
+
+2. Finally, add or move the binary to a folder in your `$PATH` (optional)
+
 ### Usage:
 
 **Example 1:** Perform active tests to enumerate all misconfigured third-party services
 
-```
+```basic
 $ ./main -target "yourcompanyname" -service "*"
 ```
 
@@ -24,7 +54,7 @@ $ ./main -target "yourcompanyname" -service "*"
 
 **Example 2:** Only perform passive tests to enumerate all third-party services
 
-```
+```bash
 $ ./main -target "yourcompanyname" -service "*" -passive-only
 ```
 
@@ -32,7 +62,7 @@ $ ./main -target "yourcompanyname" -service "*" -passive-only
 
 **Example 3:** Only test for 1 specific service
 
-```
+```bash
 $ ./main -target "yourcompanyname" -service "1"
 ```
 
@@ -40,7 +70,7 @@ $ ./main -target "yourcompanyname" -service "1"
 
 **Example 4:** Print out all loaded services
 
-```
+```bash
 $ ./main -services
 ```
 

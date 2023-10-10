@@ -2,8 +2,8 @@
 description: Description
 ---
 
-# Atlassian BitBucket
+# Atlassian Bitbucket
 
 **Misconfigurations:**
 
-1. [Public accessible private repositories](public-accessible-private-repositories.md)
+1. Misconfiguration 1

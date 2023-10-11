@@ -9,6 +9,8 @@
 
 * [DUPLICATE ME](services/duplicate-me/README.md)
   * [Page title](services/duplicate-me/page-title.md)
+* [GraphQL](services/graphql/README.md)
+  * [GraphQL Introspection Query Enabled](services/graphql/graphql-introspection-query-enabled.md)
 * [Symfony](services/symfony/README.md)
   * [Symfony Profiler Enabled](services/symfony/symfony-profiler-enabled.md)
 * [Trello](services/trello/README.md)

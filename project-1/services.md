@@ -19,15 +19,15 @@ description: List of services covered.
 * [Drupal](../services/drupal/)
 * [Symfony](../services/symfony/)
 * [Laravel](../services/laravel/)
-* GraphQL (introspection query enabled)
-* Wordpress (open signups, wp-json user enumeration)
-* Python Flask (debug mode enabled)
+* [GraphQL](../services/graphql/)
 
-**TODO:**
+**Upcoming services:**
 
+* [ ] Python Flask
+* [ ] Wordpress
 * [ ] Productboard
 * [ ] Miro
-* [ ] Office365 ([https://www.cisa.gov/news-events/analysis-reports/ar19-133a](https://www.cisa.gov/news-events/analysis-reports/ar19-133a))
+* [ ] Office365
 * [ ] Monday.com
 * [ ] Asana
 * [ ] Favro

@@ -84,8 +84,10 @@ You can additionally also pass request headers using the `-headers` flag to comp
 
 ```
 Usage of ./main:
+  -delay int
+    	Specify a delay between each request sent in milliseconds to enforce a rate limit (default: "0").
   -headers string
-    	Specify request headers to send with requests (separate each header with a double semi-colon: "User-Agent: xyz;; Cookies: xyz...;;"
+    	Specify request headers to send with requests (separate each header with a double semi-colon: "User-Agent: xyz;; Cookie: xyz...;;"
   -passive-only
     	Only check for existing instances (don't check for misconfigurations). Default: "false"
   -permutations
@@ -96,8 +98,10 @@ Usage of ./main:
     	Print all services with their associated IDs
   -target string
     	Specify your target domain name or company/organization name: "intigriti.com" or "intigriti"
-  -timeout float
-    	Specify a timeout for each request sent in seconds (default: "7.0"). (default 7)
+  -timeout int
+    	Specify a timeout for each request sent in milliseconds. (default 7000)
+  -verbose
+    	Print verbose messages
 ```
 
 ### Templates:
@@ -111,7 +115,8 @@ To define more services, edit the services.json file and separate each misconfig
 	"id":			0,
 	"baseURL":		"{BASE_URL}",
 	"path":			"{PATH}",
-	"service":		"{SERVICE_NAME}",
+	"service":		"{SERVICE}",
+	"serviceName":		"{SERVICE_NAME}",
 	"description":		"{DESCRIPTION}",
 	"reproductionSteps":	[
 		"{STEP_1}", 
@@ -177,6 +182,12 @@ Example: /app/{TARGET} will allow the tool to look for:
 {% endhint %}
 
 #### **Service:**
+
+**Type:** string
+
+The `service` field is used to identify the service when the `-service` flag is passed. This should be a string value that corresponds to one of the loaded services.
+
+#### **ServiceName:**
 
 **Type:** string
 

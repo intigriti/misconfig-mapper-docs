@@ -17,7 +17,7 @@ description: List of services covered.
 * [Jenkins](../services/jenkins/)
 * [GitLab](../services/gitlab/)
 * [Drupal](../services/drupal/)
-* [Symfony](../services/symfony-php/)
+* [Symfony](../services/symfony/)
 * [Laravel](../services/laravel/)
 * [GraphQL](../services/graphql/)
 

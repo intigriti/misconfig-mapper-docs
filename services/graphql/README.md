@@ -1,5 +1,7 @@
 ---
-description: Description
+description: >-
+  GraphQL is an API query language developed by Facebook and allows developers
+  to run queries that return the exact data structures they requested.
 ---
 
 # GraphQL

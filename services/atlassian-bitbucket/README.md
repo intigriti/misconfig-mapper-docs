@@ -1,8 +1,8 @@
 ---
 description: >-
   Atlassian Bitbucket is a Cloud-based Git tool used by software developer teams
-  as it provides features for code collaboration, automation & security.
-  Bitbucket is also easy integratable with other Atl
+  as it provides features for code collaboration, automation, security &
+  integrations with other Atlassian Products.
 ---
 
 # Atlassian Bitbucket

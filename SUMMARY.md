@@ -1,9 +1,9 @@
 # Table of contents
 
 * [Project 1](README.md)
-  * [Introduction](project-1/introduction.md)
-  * [Services](project-1/services.md)
-  * [CLI Tool](project-1/cli-tool.md)
+  * [Introduction](readme/introduction.md)
+  * [Services](readme/services.md)
+  * [CLI Tool](readme/cli-tool.md)
 
 ## Services
 

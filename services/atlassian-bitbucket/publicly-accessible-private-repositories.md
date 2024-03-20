@@ -24,15 +24,15 @@ The workspace ID can be guessed or can be enumerated through search engines like
 site:bitbucket.org inurl:/workspace/projects
 ```
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
 You'll be able to access each individual public repository by opening it on the Workspace overview page:&#x20;
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
 You can browse through the code and any previous commits:
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 #### Remediation:
 
@@ -40,11 +40,11 @@ For self-hosted Atlassian Bitbucket permises, locate the `bitbucket.properties` 
 \
 On the cloud version, navigate to your repository settings:
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 And make sure that the "**This is a private repository**" option is checked, and save your changes:
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
 Additionally, make sure your **Workspace visibility settings** are also set to **private**.\
 \
@@ -53,10 +53,10 @@ To do so:
 1. Navigate to your workspace
 2.  Click on the **settings icon** and open **Workspace settings**
 
-    <figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 3.  And make sure the option "**Keep this workspace private**" is checked and **save your settings**:
 
-    <figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
 #### Potential Impact:
 

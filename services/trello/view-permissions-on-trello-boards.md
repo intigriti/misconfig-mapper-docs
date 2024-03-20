@@ -53,7 +53,7 @@ To do so:
 3. Next to your board name, click on the visibility button to change the visibility
 4. Finally, make sure to select **Private**
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 #### Potential Impact:
 

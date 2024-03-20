@@ -1,9 +1,9 @@
 # Table of contents
 
-* [Project 1](README.md)
-  * [Introduction](readme/introduction.md)
-  * [Services](readme/services.md)
-  * [CLI Tool](readme/cli-tool.md)
+* [Service Scanner Docs](README.md)
+  * [Introduction](service-scanner-docs/introduction.md)
+  * [Services](service-scanner-docs/services.md)
+  * [CLI Tool](service-scanner-docs/cli-tool.md)
 
 ## Services
 
@@ -11,8 +11,8 @@
   * [Page title](services/duplicate-me/page-title.md)
 * [GraphQL](services/graphql/README.md)
   * [GraphQL Introspection Query Enabled](services/graphql/graphql-introspection-query-enabled.md)
-* [Symfony PHP](services/symfony/README.md)
-  * [Symfony Profiler Enabled](services/symfony/symfony-profiler-enabled.md)
+* [Symfony PHP](services/symfony-php/README.md)
+  * [Symfony Profiler Enabled](services/symfony-php/symfony-profiler-enabled.md)
 * [Trello](services/trello/README.md)
   * [View Permissions on Trello Boards](services/trello/view-permissions-on-trello-boards.md)
 * [Figma](services/figma/README.md)

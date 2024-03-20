@@ -64,7 +64,7 @@ It is always recommended to **upgrade and use the latest version available** of 
 4. Make sure that **Anonymous Access to Remote API** is **disabled**
 5. Save your changes
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 #### Potential Impact:
 

@@ -35,7 +35,7 @@ To do so:
 5. Check the **Require admin approval** box, additionally, select the channel to receive requests in.
 6. Finally click **Save** to save your changes
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 #### Potential Impact:
 

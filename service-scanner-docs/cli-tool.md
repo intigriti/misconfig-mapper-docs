@@ -6,13 +6,13 @@ It is capable of enumerating dedicated instances of services that your company m
 \
 The tool is based on templates and is versatile. New services can be easily added by adding them to the `services.json` file.
 
-### Features:
+### Features
 
-* The CLI tool is based on templates provided in the `services.json` file. You can add as many as you want. See [_Templates section_](cli-tool.md#templates) for more information on how to add a template.
-* If you provide a company name, the tool will automatically generate permutations based on your provided keyword and try to find any service that is used.
-* You can optionally choose to only enumerate services and not perform any active tests (see more on [_Usage section_](cli-tool.md#usage)).
+-   The CLI tool is based on templates provided in the `services.json` file. You can add as many as you want. See [_Templates section_](cli-tool.md#templates) for more information on how to add a template.
+-   If you provide a company name, the tool will automatically generate permutations based on your provided keyword and try to find any service that is used.
+-   You can optionally choose to only enumerate services and not perform any active tests (see more on [_Usage section_](cli-tool.md#usage)).
 
-### Installation:
+### Installation
 
 1. Clone this repository:
 
@@ -26,7 +26,7 @@ $ git clone {GH_REPO}
 $ ./main -help
 ```
 
-#### From source:
+#### From source
 
 In case you'd want to build your own version from source, make sure you have the latest version of Golang installed. To verify your installation, run:
 
@@ -42,7 +42,7 @@ $ go version
 
 2. Finally, add or move the binary to a folder in your `$PATH` (optional)
 
-### Usage:
+### Usage
 
 **Example 1:** Perform active tests to enumerate all misconfigured third-party services
 
@@ -104,7 +104,7 @@ Usage of ./main:
     	Print verbose messages
 ```
 
-### Templates:
+### Templates
 
 You can easily define more templates to scan for. Templates are in a structed JSON object and read from `services.json` \
 \
@@ -119,8 +119,8 @@ To define more services, edit the services.json file and separate each misconfig
 	"serviceName":		"{SERVICE_NAME}",
 	"description":		"{DESCRIPTION}",
 	"reproductionSteps":	[
-		"{STEP_1}", 
-		"{STEP_2}", 
+		"{STEP_1}",
+		"{STEP_2}",
 		...
 	],
 	"passive":		[
@@ -141,7 +141,7 @@ To define more services, edit the services.json file and separate each misconfig
 }
 ```
 
-#### ID:
+#### ID
 
 **Type:** number\
 \
@@ -158,11 +158,11 @@ The CLI tool can auto-detect and replace the **"{TARGET}"** template variable wi
 \
 Example: https://{TARGET}.example.com will allow the tool to look for:
 
-* https://yourcompanyname.example.com
-* https://yourcompanyname-app.example.com
-* https://yourcompanyname-eu.example.com
-* ...
-{% endhint %}
+-   https://yourcompanyname.example.com
+-   https://yourcompanyname-app.example.com
+-   https://yourcompanyname-eu.example.com
+-   ...
+    {% endhint %}
 
 #### **Path:**
 
@@ -175,11 +175,11 @@ The CLI tool can auto-detect and replace the **"{TARGET}"** template variable wi
 \
 Example: /app/{TARGET} will allow the tool to look for:
 
-* https://example.com/app/yourcompanyname
-* https://example.com/app/yourcompanyname-app
-* https://example.com/app/yourcompanyname-eu
-* ...
-{% endhint %}
+-   https://example.com/app/yourcompanyname
+-   https://example.com/app/yourcompanyname-app
+-   https://example.com/app/yourcompanyname-eu
+-   ...
+    {% endhint %}
 
 #### **Service:**
 

@@ -6,13 +6,13 @@ It can enumerate dedicated instances of services that your company may use and p
 \
 The tool is based on templates and is versatile. New services can be easily added by adding them to the `services.json` file.
 
-### Features
+## Features
 
 -   The CLI tool is based on templates defined in the `services.json` file. You can add as many as you want. See [_Templates section_](cli-tool.md#templates) for more information on how to add a template.
 -   If you provide a company name, the tool will automatically generate permutations based on the keyword you provided and try to find any matching services.
 -   You can optionally choose only to enumerate services and not perform any active tests (see more on [_Usage section_](cli-tool.md#usage)).
 
-### Installation
+## Installation
 
 1. Clone this repository:
 
@@ -26,7 +26,7 @@ $ git clone {GH_REPO}
 $ ./main -help
 ```
 
-#### From source
+### From source
 
 If you want to build your own instance from source, ensure you have the latest version of Golang installed. To verify your installation, run:
 
@@ -42,7 +42,7 @@ $ go version
 
 2. Finally, add or move the binary to a folder in your `$PATH` (optional)
 
-### Usage
+## Usage
 
 **Example 1:** Perform active tests to enumerate all misconfigured third-party services
 
@@ -100,7 +100,7 @@ Usage of ./main:
     	Specify a timeout for each request sent in seconds (default: "7.0"). (default 7)
 ```
 
-### Templates
+## Templates
 
 You can easily define more templates to scan for. Templates are in a structured JSON object and read from `services.json`\
 \

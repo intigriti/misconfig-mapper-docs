@@ -142,7 +142,7 @@ To define more services, edit the services.json file and separate each misconfig
 \
 The `id` field is used to identify the service when the `-service` flag is provided. It should be a numerical value that follows the sequence of previous IDs.
 
-**BaseURL:**
+**BaseURL**
 
 **Type:** string
 
@@ -159,7 +159,7 @@ Example: https://{TARGET}.example.com will allow the tool to look for:
 -   ...
     {% endhint %}
 
-#### **Path:**
+#### **Path**
 
 **Type:** string
 
@@ -176,19 +176,19 @@ Example: /app/{TARGET} will allow the tool to look for:
 -   ...
     {% endhint %}
 
-#### **Service:**
+#### **Service**
 
 **Type:** string
 
 The `service` field is used to display the service name in the CLI output results to visually confirm which service is currently being scanned.
 
-#### **Description:**
+#### **Description**
 
 **Type:** string
 
 The `description` field displays the service description in the CLI output once a service has been enumerated or identified and confirmed vulnerable.
 
-#### **Reproduction Steps:**
+#### **Reproduction Steps**
 
 **Type:** string array
 
@@ -198,19 +198,19 @@ The `reproductionSteps` field reports back on how to reproduce the found misconf
 Each step should be in a separate array entry. You can specify as many steps as you'd like to.
 {% endhint %}
 
-#### **Passive:**
+#### **Passive**
 
 **Type:** string array
 
 The `passive` field supports enumeration & validation of a third-party service for your target. We recommend defining strict keywords to minimize the chances of false positive results.
 
-#### **Active:**
+#### **Active**
 
 **Type:** string array
 
 The `active` field is used to validate the existence of a misconfigured third-party service for your target. Make sure to define strict keywords to minimize the chances of false positive results.
 
-#### **References:**
+#### **References**
 
 **Type:** string array
 

@@ -1,48 +1,73 @@
----
-description: List of services covered.
----
-
 # Services
 
--   [Trello](../services/trello/)
--   [Figma](../services/figma/)
--   [Slack](../services/slack/)
--   [Atlassian BitBucket](../services/atlassian-bitbucket/)
--   [Atlassian Confluence](../services/atlassian-confluence/)
--   [Atlassian Jira](../services/atlassian-jira/)
--   [Google Groups](../services/google-groups.md)
--   [Google Docs](../services/google-docs.md)
--   [Google Cloud Storage Bucket](../services/google-cloud-storage-bucket.md)
--   [Google OAuth 2.0](../services/google-oauth-2.0/)
--   [Jenkins](../services/jenkins/)
--   [GitLab](../services/gitlab/)
--   [Drupal](../services/drupal/)
--   [Symfony](../services/symfony-php/)
--   [Laravel](../services/laravel/)
--   [GraphQL](../services/graphql/)
+### Documented Services
 
-**Upcoming services:**
+Below is a list of all the misconfigurations that have **only been documented** so far.
 
--   [ ] Python Flask
--   [ ] Wordpress
--   [ ] Productboard
--   [ ] Miro
--   [ ] Office365
--   [ ] Monday.com
--   [ ] Asana
--   [ ] Favro
--   [ ] Wiki Atlassian
--   [ ] Intercom
--   [ ] Clickup
--   [ ] Basecamp
--   [ ] Zendesk
--   [ ] Github
--   [ ] Hubspot
--   [ ] Azure DevOps
--   [ ] Salesforce
--   [ ] Bitbucket
--   [ ] Okta
--   [ ] Sentry
--   [ ] Quip
--   [ ] Todoist
--   [ ] Wrike
+{% hint style="info" %}
+Please do note that currently not every documented misconfiguration has been automated and integrated into the [Misconfig Mapper tool](cli-tool.md).
+{% endhint %}
+
+* [Trello](../services/trello/)
+* [Figma](../services/figma/)
+* [Slack](../services/slack/)
+* [Atlassian BitBucket](../services/atlassian-bitbucket/)
+* [Atlassian Confluence](../services/atlassian-confluence/)
+* [Atlassian Jira](../services/atlassian-jira/)
+* [Google Groups](../services/google-groups.md)
+* [Google Docs](../services/google-docs.md)
+* [Google Cloud Storage Bucket](../services/google-cloud-storage-bucket.md)
+* [Google OAuth 2.0](../services/google-oauth-2.0)
+* [Jenkins](../services/jenkins/)
+* [GitLab](../services/gitlab/)
+* [Drupal](../services/drupal/)
+* [Symfony](../services/symfony-php/)
+* [Laravel](../services/laravel/)
+* [GraphQL](../services/graphql/)
+
+### Automated Services
+
+Below is a list of all the misconfigurations that have been **documented and automated**.
+
+* [Atlassian Jira](../services/atlassian-jira/)
+* [Slack](../services/slack/)
+* [Google Groups](../services/google-groups.md)
+* [Google Cloud Storage Bucket](../services/google-cloud-storage-bucket.md)
+* [Jenkins](../services/jenkins/)
+* [GitLab](../services/gitlab/)
+* [Drupal](../services/drupal/)
+* [Laravel](../services/laravel/)
+
+{% hint style="info" %}
+A more extensive list can be requested by executing the following command on the provided [CLI tool](cli-tool.md):
+
+```bash
+$ ./misconfig-mapper -services
+```
+{% endhint %}
+
+### Upcoming Services
+
+* [ ] Python Flask
+* [ ] Wordpress
+* [ ] Productboard
+* [ ] Miro
+* [ ] Office365
+* [ ] Monday.com
+* [ ] Asana
+* [ ] Favro
+* [ ] Wiki Atlassian
+* [ ] Intercom
+* [ ] Clickup
+* [ ] Basecamp
+* [ ] Zendesk
+* [ ] Github
+* [ ] Hubspot
+* [ ] Azure DevOps
+* [ ] Salesforce
+* [ ] Bitbucket
+* [ ] Okta
+* [ ] Sentry
+* [ ] Quip
+* [ ] Todoist
+* [ ] Wrike

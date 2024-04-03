@@ -1,6 +1,6 @@
 # CLI TOOL
 
-_**Common Misconfigurations**_ has a [dedicated open-source CLI tool ](https://github.com/intigriti/common-misconfigurations/tree/main/cli-tool)written in Golang to help you automate the testing of most misconfigurations found on covered services.\
+_**Common Misconfigurations**_ has a [dedicated open-source CLI tool ](https://github.com/intigriti/service-scanner) written in Golang to help you automate the testing of most misconfigurations found on covered services.\
 \
 It can enumerate dedicated instances of services that your company may use and perform passive & active tests to check for certain misconfigurations at scale!\
 \

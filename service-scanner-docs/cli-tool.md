@@ -1,6 +1,6 @@
-# CLI TOOL
+# CLI Tool
 
-_**Common Misconfigurations**_ has a [dedicated open-source CLI tool ](https://github.com/intigriti/service-scanner) written in Golang to help you automate the testing of most misconfigurations found on covered services.\
+_**Common Misconfigurations**_ has a [dedicated open-source CLI tool ](https://github.com/intigriti/service-scanner)written in Golang to help you automate the testing of most misconfigurations found on covered services.\
 \
 It can enumerate dedicated instances of services that your company may use and perform passive & active tests to check for certain misconfigurations at scale!\
 \
@@ -8,9 +8,9 @@ The tool is based on templates and is versatile. New services can be easily adde
 
 ## Features
 
--   The CLI tool is based on templates defined in the `services.json` file. You can add as many as you want. See [_Templates section_](cli-tool.md#templates) for more information on how to add a template.
--   If you provide a company name, the tool will automatically generate permutations based on the keyword you provided and try to find any matching services.
--   You can optionally choose only to enumerate services and not perform any active tests (see more on [_Usage section_](cli-tool.md#usage)).
+* The CLI tool is based on templates defined in the `services.json` file. You can add as many as you want. See [_Templates section_](cli-tool.md#templates) for more information on how to add a template.
+* If you provide a company name, the tool will automatically generate permutations based on the keyword you provided and try to find any matching services.
+* You can optionally choose only to enumerate services and not perform any active tests (see more on [_Usage section_](cli-tool.md#usage)).
 
 ## Installation
 
@@ -50,27 +50,27 @@ $ go version
 $ ./main -target "yourcompanyname" -service "*"
 ```
 
-<figure><img src=".gitbook/assets/image%20(2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/example_1.png" alt=""><figcaption></figcaption></figure>
 
 **Example 2:** Only perform passive tests to enumerate all third-party services
 
 ```bash
-$ ./main -target "yourcompanyname" -service "*" -passive-only
+$ ./main -target "yourcompanyname" -service "*" -passive-only true
 ```
 
-<figure><img src=".gitbook/assets/image%20(1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/example_2.png" alt=""><figcaption></figcaption></figure>
 
 **Example 3:** Only test for one specific service (by ID or name)
 
 ```bash
-$ ./main -target "yourcompanyname" -service "1"
+$ ./main -target "yourcompanyname" -service 1
 ```
 
 ```bash
 $ ./main -target "yourcompanyname" -service "drupal"
 ```
 
-<figure><img src=".gitbook/assets/image%20(4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/example_3.png" alt=""><figcaption></figcaption></figure>
 
 **Example 4:** Print out all loaded services
 
@@ -78,7 +78,7 @@ $ ./main -target "yourcompanyname" -service "drupal"
 $ ./main -services
 ```
 
-<figure><img src=".gitbook/assets/image%20(3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/example_4.png" alt=""><figcaption></figcaption></figure>
 
 Additionally, you can pass request headers using the `-headers` flag to comply with any request requirements (separate each header using a **double semi-colon**):
 
@@ -87,21 +87,27 @@ Additionally, you can pass request headers using the `-headers` flag to comply w
 ```
 
 ```
-Usage of ./main:
+Usage of ./misconfig-mapper:
+  -delay int
+    	Specify a delay between each request sent in milliseconds to enforce a rate limit.
   -headers string
     	Specify request headers to send with requests (separate each header with a double semi-colon: "User-Agent: xyz;; Cookie: xyz...;;"
-  -passive-only
-    	Only check for existing instances (don't check for misconfigurations). Default: "false"
-  -permutations
-    	Enable permutations and look for several other keywords of your target. Default: "true" (default true)
+  -max-redirects int
+    	Specify the max amount of redirects to follow. (default 3)
+  -passive-only string
+    	Only check for existing instances (don't check for misconfigurations).
+  -permutations string
+    	Enable permutations and look for several other keywords of your target. (default "true")
   -service string
-    	Specify the service ID you want to check for: "0" for Atlassian Jira Open Signups. Wildcards are also accepted to check for all services. (default "0")
+    	Specify the service ID you'd like to check for: "0" for Atlassian Jira Open Signups. Wildcards are also accepted to check for all services. (default "0")
   -services
     	Print all services with their associated IDs
   -target string
     	Specify your target domain name or company/organization name: "intigriti.com" or "intigriti"
-  -timeout float
-    	Specify a timeout for each request sent in seconds (default: "7.0"). (default 7)
+  -timeout int
+    	Specify a timeout for each request sent in milliseconds. (default 7000)
+  -verbose
+    	Print verbose messages
 ```
 
 ## Templates
@@ -157,11 +163,11 @@ The CLI tool can auto-detect and replace the **"{TARGET}"** template variable wi
 \
 Example: https://{TARGET}.example.com will allow the tool to look for:
 
--   https://yourcompanyname.example.com
--   https://yourcompanyname-app.example.com
--   https://yourcompanyname-eu.example.com
--   ...
-    {% endhint %}
+* https://yourcompanyname.example.com
+* https://yourcompanyname-app.example.com
+* https://yourcompanyname-eu.example.com
+* ...
+{% endhint %}
 
 #### **Path**
 
@@ -174,11 +180,11 @@ The CLI tool can auto-detect and replace the **"{TARGET}"** template variable wi
 \
 Example: /app/{TARGET} will allow the tool to look for:
 
--   https://example.com/app/yourcompanyname
--   https://example.com/app/yourcompanyname-app
--   https://example.com/app/yourcompanyname-eu
--   ...
-    {% endhint %}
+* https://example.com/app/yourcompanyname
+* https://example.com/app/yourcompanyname-app
+* https://example.com/app/yourcompanyname-eu
+* ...
+{% endhint %}
 
 #### **Service**
 

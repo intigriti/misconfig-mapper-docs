@@ -1,6 +1,6 @@
 # CLI Tool
 
-_**Common Misconfigurations**_ has a [dedicated open-source CLI tool ](https://github.com/intigriti/service-scanner)written in Golang to help you automate the testing of most misconfigurations found on covered services.\
+**Misconfig Mapper** has a [dedicated open-source CLI tool ](https://github.com/intigriti/service-scanner)written in Golang to help you automate the testing of most misconfigurations found on covered services.\
 \
 It can enumerate dedicated instances of services that your company may use and perform passive & active tests to check for certain misconfigurations at scale!\
 \
@@ -23,7 +23,7 @@ $ git clone {GH_REPO}
 2. Run the pre-compiled binary (see [usage](cli-tool.md#usage) for more information).
 
 ```bash
-$ ./main -help
+$ ./misconfig-mapper -help
 ```
 
 ### From source
@@ -47,7 +47,7 @@ $ go version
 **Example 1:** Perform active tests to enumerate all misconfigured third-party services
 
 ```basic
-$ ./main -target "yourcompanyname" -service "*"
+$ ./misconfig-mapper -target "yourcompanyname" -service "*"
 ```
 
 <figure><img src="../.gitbook/assets/example_1.png" alt=""><figcaption></figcaption></figure>
@@ -55,7 +55,7 @@ $ ./main -target "yourcompanyname" -service "*"
 **Example 2:** Only perform passive tests to enumerate all third-party services
 
 ```bash
-$ ./main -target "yourcompanyname" -service "*" -passive-only true
+$ ./misconfig-mapper -target "yourcompanyname" -service "*" -passive-only true
 ```
 
 <figure><img src="../.gitbook/assets/example_2.png" alt=""><figcaption></figcaption></figure>
@@ -63,11 +63,11 @@ $ ./main -target "yourcompanyname" -service "*" -passive-only true
 **Example 3:** Only test for one specific service (by ID or name)
 
 ```bash
-$ ./main -target "yourcompanyname" -service 1
+$ ./misconfig-mapper -target "yourcompanyname" -service 1
 ```
 
 ```bash
-$ ./main -target "yourcompanyname" -service "drupal"
+$ ./misconfig-mapper -target "yourcompanyname" -service "drupal"
 ```
 
 <figure><img src="../.gitbook/assets/example_3.png" alt=""><figcaption></figcaption></figure>
@@ -75,7 +75,7 @@ $ ./main -target "yourcompanyname" -service "drupal"
 **Example 4:** Print out all loaded services
 
 ```bash
-$ ./main -services
+$ ./misconfig-mapper -services
 ```
 
 <figure><img src="../.gitbook/assets/example_4.png" alt=""><figcaption></figcaption></figure>

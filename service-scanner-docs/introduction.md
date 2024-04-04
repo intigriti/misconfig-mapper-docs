@@ -1,8 +1,8 @@
 # Introduction
 
-Service Scanner is a project by Intigriti for the community to help you find, detect and resolve common security misconfigurations in various popular services, technologies and SaaS-based solutions that your targets use!
+Misconfig Mapper is a project by Intigriti for the community to help you find, detect and resolve common security misconfigurations in various popular services, technologies and SaaS-based solutions that your targets use!
 
-Service Scanner consists out of 2 parts, the Documentation and the Scanner.
+Misconfig Mapper consists out of 2 parts, the Documentation and the Scanner.
 
 ## Documentation
 
@@ -18,13 +18,13 @@ The open-source scanner that is written in Golang is designed to help you automa
 
 Some features include:
 
--   Automatic target enumeration (via permutations)
--   Template-based (easy configuration of new services)
--   Passive-only tests
+* Automatic target enumeration (via permutations)
+* Template-based (easy configuration of new services)
+* Passive-only tests
 
 <figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption><p><em>Example of a misconfigured Atlassian Jira Service Desk instance finding.</em></p></figcaption></figure>
 
-{REPO_LINK}
+{% embed url="https://github.com/intigriti/misconfig-mapper" %}
 
 ## Supported Services
 
@@ -32,6 +32,6 @@ At the moment, there are 15+ services available. [Click here](services.md) to vi
 
 ## Contributions
 
-Learn more on how to contribute to the project.
+Contributions to the project are encouraged! Please learn more on how to contribute to the project below:
 
 {INSTRUCTIONS & GUIDELINES TO CONTRIBUTE}

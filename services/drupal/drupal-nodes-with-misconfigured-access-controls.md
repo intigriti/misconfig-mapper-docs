@@ -1,4 +1,4 @@
-# Drupal Nodes
+# Drupal Nodes with Misconfigured Access Controls
 
 #### Description:
 
@@ -20,7 +20,7 @@ Keep incrementing the ID until you come an existing node ID and examine the resp
 
 #### Remediation:
 
-
+Introduce effective access controls for each node.
 
 #### Potential Impact:
 

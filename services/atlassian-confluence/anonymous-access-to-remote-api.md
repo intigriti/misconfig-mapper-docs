@@ -75,4 +75,5 @@ It is possible for a **bad actor to conduct destructive changes in bulk** with t
 * [https://developer.atlassian.com/server/confluence/remote-confluence-methods/](https://developer.atlassian.com/server/confluence/remote-confluence-methods/)
 * [https://developer.atlassian.com/server/confluence/confluence-xml-rpc-and-soap-apis/](https://developer.atlassian.com/server/confluence/confluence-xml-rpc-and-soap-apis/)
 * [https://confluence.atlassian.com/doc/anonymous-access-to-remote-api-151028.html](https://confluence.atlassian.com/doc/anonymous-access-to-remote-api-151028.html)
+* [https://confluence.atlassian.com/doc/configuring-confluence-security-151515.html](https://confluence.atlassian.com/doc/configuring-confluence-security-151515.html)
 

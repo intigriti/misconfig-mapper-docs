@@ -1,12 +1,4 @@
----
-description: >-
-  Google Docs can be left misconfigured and leak internal company data (like
-  documents) if view permissions are left public
----
-
-# Google Docs
-
-### Misconfigured Read Permissions:
+# Misconfigured read permissions
 
 #### Description:
 
@@ -36,9 +28,9 @@ To do so:
 6. Make sure to select **Restricted** under General Access
 7. Finally, click on **Done** to save your settings
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption><p>As you can see, in this example the full document link was shared (intentionally). This happens more often than expected.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption><p>As you can see, in this example the full document link was shared (intentionally). This happens more often than expected.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
 #### Potential Impact:
 

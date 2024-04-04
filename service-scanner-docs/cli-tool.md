@@ -100,7 +100,7 @@ Usage of ./misconfig-mapper:
     	Enable permutations and look for several other keywords of your target. (default "true")
   -service string
     	Specify the service ID you'd like to check for: "0" for Atlassian Jira Open Signups. Wildcards are also accepted to check for all services. (default "0")
-  -services
+  -list-services
     	Print all services with their associated IDs
   -target string
     	Specify your target domain name or company/organization name: "intigriti.com" or "intigriti"

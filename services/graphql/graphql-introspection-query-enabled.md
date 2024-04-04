@@ -170,5 +170,4 @@ This information is often later used for further exploitation to aid in finding 
 
 * [https://graphql.org/learn/introspection/](https://graphql.org/learn/introspection/)
 * [https://cheatsheetseries.owasp.org/cheatsheets/GraphQL\_Cheat\_Sheet.html#introspection-graphiql](https://cheatsheetseries.owasp.org/cheatsheets/GraphQL\_Cheat\_Sheet.html#introspection-graphiql)
-* [https://lab.wallarm.com/why-and-how-to-disable-introspection-query-for-graphql-apis/](https://lab.wallarm.com/why-and-how-to-disable-introspection-query-for-graphql-apis/)
 * [https://www.apollographql.com/blog/graphql/security/why-you-should-disable-graphql-introspection-in-production/](https://www.apollographql.com/blog/graphql/security/why-you-should-disable-graphql-introspection-in-production/)

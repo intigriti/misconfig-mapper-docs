@@ -17,7 +17,7 @@ The tool is based on templates and is versatile. New services can be easily adde
 1. Clone this repository:
 
 ```bash
-$ git clone {GH_REPO}
+$ git clone https://github.com/intigriti/misconfig-mapper.git
 ```
 
 2. Run the pre-compiled binary (see [usage](cli-tool.md#usage) for more information).
@@ -37,7 +37,7 @@ $ go version
 
 1. Next, compile your binary from source:
 
-<pre class="language-bash"><code class="lang-bash"><strong>$ go build main.go -o main
+<pre class="language-bash"><code class="lang-bash"><strong>$ go build -o misconfig-mapper
 </strong></code></pre>
 
 2. Finally, add or move the binary to a folder in your `$PATH` (optional)

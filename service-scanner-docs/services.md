@@ -1,4 +1,8 @@
-# Services
+---
+description: A comprehensive list of documented and automated services.
+---
+
+# Supported Services
 
 ### Documented Services
 

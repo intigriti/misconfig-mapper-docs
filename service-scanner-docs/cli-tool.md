@@ -243,7 +243,7 @@ The `statusCode` field is used to validate the matching response status code and
 The `detectionFingerprints` field supports enumeration & validation of a third-party service for your target. These fingerprints are used to mark the detection of a service or instance. Make sure to define strict regex patterns or keywords to minimize the chances of false positive results.
 
 {% hint style="info" %}
-> Regex patterns are supported!
+Regex patterns are supported!
 {% endhint %}
 
 ### **Fingerprints**
@@ -253,7 +253,7 @@ The `detectionFingerprints` field supports enumeration & validation of a third-p
 The `fingerprints` field is used to validate the existence of a misconfigured third-party service for your target. Make sure to define strict regex patterns or keywords to minimize the chances of false positive results.
 
 {% hint style="info" %}
-> Regex patterns are supported!
+Regex patterns are supported!
 {% endhint %}
 
 ## Metadata
@@ -277,7 +277,7 @@ The `description` field displays the service description in the CLI output once 
 The `reproductionSteps` field reports back on how to reproduce the found misconfiguration. These steps are derived from this documentation.
 
 {% hint style="info" %}
-> Each step should be in a separate array entry. You can specify as many steps as you'd like to.
+Each step should be in a separate array entry. You can specify as many steps as you'd like to.
 {% endhint %}
 
 ### **References**
@@ -287,5 +287,5 @@ The `reproductionSteps` field reports back on how to reproduce the found misconf
 The' references' field documents enumerated and misconfigured services. These references are derived from this documentation.
 
 {% hint style="info" %}
-> Each reference should be in a separate array entry. You can specify as many references as you'd like to.
+Each reference should be in a separate array entry. You can specify as many references as you'd like to.
 {% endhint %}

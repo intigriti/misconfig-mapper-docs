@@ -200,7 +200,7 @@ Example: https://{TARGET}.example.com will allow the tool to look for:
 
 The `path` field checks whether the service is vulnerable by observing the response.
 
-{% hint style="info" %}
+{% hint style="success" %}
 The CLI tool can auto-detect and replace the **"{TARGET}"** template variable with the target provided using the target flag.\
 \
 Example: /app/{TARGET} will allow the tool to look for:

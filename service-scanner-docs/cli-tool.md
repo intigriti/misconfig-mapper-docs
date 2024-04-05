@@ -184,7 +184,7 @@ The `method` field is used to provide a HTTP method.
 
 The `baseURL` field is used to locate the third-party service, if it exists.
 
-> [!TIP]
+{% hint style="info" %}
 > The CLI tool can auto-detect and replace the **"{TARGET}"** template variable with the target provided using the target flag.\
 > \
 > Example: https://{TARGET}.example.com will allow the tool to look for:
@@ -193,6 +193,7 @@ The `baseURL` field is used to locate the third-party service, if it exists.
 > -   https://yourcompanyname-app.example.com
 > -   https://yourcompanyname-eu.example.com
 > -   ...
+{% endhint %}
 
 ### **Path**
 

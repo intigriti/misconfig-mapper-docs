@@ -289,11 +289,3 @@ The' references' field documents enumerated and misconfigured services. These re
 {% hint style="info" %}
 > Each reference should be in a separate array entry. You can specify as many references as you'd like to.
 {% endhint %}
-
-# Contributions
-
-Learn more on how to contribute to the project.
-
-# License
-
-This project is licensed and available under the {LICENSE} license.

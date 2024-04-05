@@ -52,7 +52,7 @@ $ go build -o misconfig-mapper
 $ ./misconfig-mapper -target "yourcompanyname" -service "*"
 ```
 
-![Example 1](images/example_1.png "Example 1")
+![Example 1](../.gitbook/assets/example_1.png "Example 1")
 
 **Example 2:** Perform a detection-only scan to enumerate all third-party services (without checking for any misconfigurations)
 

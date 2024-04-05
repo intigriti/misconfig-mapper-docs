@@ -241,7 +241,7 @@ The `statusCode` field is used to validate the matching response status code and
 
 The `detectionFingerprints` field supports enumeration & validation of a third-party service for your target. These fingerprints are used to mark the detection of a service or instance. Make sure to define strict regex patterns or keywords to minimize the chances of false positive results.
 
-{% hint style="info" %}
+{% hint style="success" %}
 Regex patterns are supported!
 {% endhint %}
 
@@ -251,7 +251,7 @@ Regex patterns are supported!
 
 The `fingerprints` field is used to validate the existence of a misconfigured third-party service for your target. Make sure to define strict regex patterns or keywords to minimize the chances of false positive results.
 
-{% hint style="info" %}
+{% hint style="success" %}
 Regex patterns are supported!
 {% endhint %}
 

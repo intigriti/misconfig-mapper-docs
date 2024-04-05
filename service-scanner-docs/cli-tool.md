@@ -185,14 +185,14 @@ The `method` field is used to provide a HTTP method.
 The `baseURL` field is used to locate the third-party service, if it exists.
 
 {% hint style="info" %}
-> The CLI tool can auto-detect and replace the **"{TARGET}"** template variable with the target provided using the target flag.\
-> \
-> Example: https://{TARGET}.example.com will allow the tool to look for:
->
-> -   https://yourcompanyname.example.com
-> -   https://yourcompanyname-app.example.com
-> -   https://yourcompanyname-eu.example.com
-> -   ...
+The CLI tool can auto-detect and replace the **"{TARGET}"** template variable with the target provided using the target flag.\
+\
+Example: https://{TARGET}.example.com will allow the tool to look for:
+
+-   https://yourcompanyname.example.com
+-   https://yourcompanyname-app.example.com
+-   https://yourcompanyname-eu.example.com
+-   ...
 {% endhint %}
 
 ### **Path**
@@ -201,15 +201,16 @@ The `baseURL` field is used to locate the third-party service, if it exists.
 
 The `path` field checks whether the service is vulnerable by observing the response.
 
-> [!TIP]
-> The CLI tool can auto-detect and replace the **"{TARGET}"** template variable with the target provided using the target flag.\
+{% hint style="info" %}
+The CLI tool can auto-detect and replace the **"{TARGET}"** template variable with the target provided using the target flag.\
 \
-> Example: /app/{TARGET} will allow the tool to look for:
->
-> -   https://example.com/app/yourcompanyname
-> -   https://example.com/app/yourcompanyname-app
-> -   https://example.com/app/yourcompanyname-eu
-> -   ...
+Example: /app/{TARGET} will allow the tool to look for:
+
+-   https://example.com/app/yourcompanyname
+-   https://example.com/app/yourcompanyname-app
+-   https://example.com/app/yourcompanyname-eu
+-   ...
+{% endhint %}
 
 ### **Headers**
 
@@ -223,8 +224,9 @@ The `headers` field is used to supply any required request headers.
 
 The `body` field is used to supply a raw request body.
 
-> [!NOTE]
-> Set the request body to **null** if there's no need to send a request body.
+{% hint style="info" %}
+Set the request body to **null** if there's no need to send a request body.
+{% endhint %}
 
 ## Response
 
@@ -240,8 +242,9 @@ The `statusCode` field is used to validate the matching response status code and
 
 The `detectionFingerprints` field supports enumeration & validation of a third-party service for your target. These fingerprints are used to mark the detection of a service or instance. Make sure to define strict regex patterns or keywords to minimize the chances of false positive results.
 
-> [!TIP]
+{% hint style="info" %}
 > Regex patterns are supported!
+{% endhint %}
 
 ### **Fingerprints**
 
@@ -249,8 +252,9 @@ The `detectionFingerprints` field supports enumeration & validation of a third-p
 
 The `fingerprints` field is used to validate the existence of a misconfigured third-party service for your target. Make sure to define strict regex patterns or keywords to minimize the chances of false positive results.
 
-> [!TIP]
+{% hint style="info" %}
 > Regex patterns are supported!
+{% endhint %}
 
 ## Metadata
 
@@ -272,8 +276,9 @@ The `description` field displays the service description in the CLI output once 
 
 The `reproductionSteps` field reports back on how to reproduce the found misconfiguration. These steps are derived from this documentation.
 
-> [!NOTE]
+{% hint style="info" %}
 > Each step should be in a separate array entry. You can specify as many steps as you'd like to.
+{% endhint %}
 
 ### **References**
 
@@ -281,8 +286,9 @@ The `reproductionSteps` field reports back on how to reproduce the found misconf
 
 The' references' field documents enumerated and misconfigured services. These references are derived from this documentation.
 
-> [!NOTE]
+{% hint style="info" %}
 > Each reference should be in a separate array entry. You can specify as many references as you'd like to.
+{% endhint %}
 
 # Contributions
 

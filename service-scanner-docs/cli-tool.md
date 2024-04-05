@@ -184,7 +184,7 @@ The `method` field is used to provide a HTTP method.
 
 The `baseURL` field is used to locate the third-party service, if it exists.
 
-{% hint style="info" %}
+{% hint style="success" %}
 The CLI tool can auto-detect and replace the **"{TARGET}"** template variable with the target provided using the target flag.\
 \
 Example: https://{TARGET}.example.com will allow the tool to look for:
@@ -201,7 +201,7 @@ Example: https://{TARGET}.example.com will allow the tool to look for:
 
 The `path` field checks whether the service is vulnerable by observing the response.
 
-{% hint style="info" %}
+{% hint style="success" %}
 The CLI tool can auto-detect and replace the **"{TARGET}"** template variable with the target provided using the target flag.\
 \
 Example: /app/{TARGET} will allow the tool to look for:
@@ -242,7 +242,7 @@ The `statusCode` field is used to validate the matching response status code and
 
 The `detectionFingerprints` field supports enumeration & validation of a third-party service for your target. These fingerprints are used to mark the detection of a service or instance. Make sure to define strict regex patterns or keywords to minimize the chances of false positive results.
 
-{% hint style="info" %}
+{% hint style="success" %}
 Regex patterns are supported!
 {% endhint %}
 
@@ -252,7 +252,7 @@ Regex patterns are supported!
 
 The `fingerprints` field is used to validate the existence of a misconfigured third-party service for your target. Make sure to define strict regex patterns or keywords to minimize the chances of false positive results.
 
-{% hint style="info" %}
+{% hint style="success" %}
 Regex patterns are supported!
 {% endhint %}
 

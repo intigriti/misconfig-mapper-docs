@@ -60,7 +60,7 @@ $ ./misconfig-mapper -target "yourcompanyname" -service "*"
 $ ./misconfig-mapper -target "yourcompanyname" -service "*" -skip-misconfiguration-checks true
 ```
 
-![Example 2](images/example_2.png "Example 2")
+![Example 2](../.gitbook/assets/example_2.png "Example 2")
 
 **Example 3:** Only test for one specific service (by ID or name)
 
@@ -72,7 +72,7 @@ $ ./misconfig-mapper -target "yourcompanyname" -service 1
 $ ./misconfig-mapper -target "yourcompanyname" -service "drupal"
 ```
 
-![Example 3](images/example_3.png "Example 3")
+![Example 3](../.gitbook/assets/example_3.png "Example 3")
 
 **Example 4:** Print out all loaded services
 
@@ -80,7 +80,7 @@ $ ./misconfig-mapper -target "yourcompanyname" -service "drupal"
 $ ./misconfig-mapper -list-services
 ```
 
-![Example 4](images/example_4.png "Example 4")
+![Example 4](../.gitbook/assets/example_4.png "Example 4")
 
 Additionally, you can pass request headers using the `-headers` flag to comply with any request requirements (separate each header using a **double semi-colon**):
 

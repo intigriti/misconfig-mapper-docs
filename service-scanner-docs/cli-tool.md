@@ -12,21 +12,11 @@ The tool is based on templates and is versatile. New services can be easily adde
 * If you provide a company name, the tool will automatically generate permutations based on the keyword you provided and try to find any matching services.
 * You can also optionally select to only detect the presence of services without performing any misconfiguration checks (see more on [_Usage section_](cli-tool.md#usage)).
 
-## Installation
+# Installation
 
-1. Clone this repository:
+To install Misconfig Mapper, you can clone the repository and compile the code from source or [download the latest release](https://github.com/intigriti/misconfig-mapper/releases).
 
-```bash
-$ git clone https://github.com/intigriti/misconfig-mapper.git
-```
-
-2. Run the pre-compiled binary (see [usage](cli-tool.md#usage) for more information).
-
-```bash
-$ ./misconfig-mapper -help
-```
-
-#### From source
+### From source
 
 If you want to build your own instance from source, ensure you have the latest version of Golang installed. To verify your installation, run:
 
@@ -35,13 +25,19 @@ $ go version
   go version go1.21.5 linux/amd64
 ```
 
-1. Next, compile your binary from source:
+1. Clone this repository:
+
+```bash
+$ git clone https://github.com/intigriti/misconfig-mapper.git
+```
+
+2. Next, compile your binary from source:
 
 ```bash
 $ go build -o misconfig-mapper
 ```
 
-2. Finally, add or move the binary to a folder in your `$PATH` (optional)
+3. Finally, add or move the binary to a folder in your `$PATH` (optional)
 
 ## Usage
 
@@ -115,51 +111,10 @@ Usage of ./misconfig-mapper:
 
 You can easily define more templates to scan for. Templates are in a structured JSON object and read from `services.json`\
 \
-To define more services, edit the services.json file and separate each misconfiguration in your services.json file.
+To define more services, edit the services.json file and separate each misconfiguration in your `services.json` file.
 
-```json
-{
-	"id":					0,
-	"request": {
-		"method":			"{METHOD}",
-		"baseURL":			"{BASE_URL}",
-		"path":				"{PATH}",
-		"headers":		[
-			{
-				"{HEADER}": "{VALUE}"
-			}
-		],
-		"body":				null
-	},
-	"response": {
-		"statusCode": 200,
-		"detectionFingerprints":		[
-			"{KEYWORD_1}",
-			"{KEYWORD_2}",
-			"..."
-		],
-		"fingerprints":		[
-			"{KEYWORD_1}",
-			"{KEYWORD_2}",
-			"..."
-		],
-	},
-	"metadata": {
-		"service":		"{SERVICE_NAME}",
-		"description":		"{DESCRIPTION}",
-		"reproductionSteps":	[
-			"{STEP_1}",
-			"{STEP_2}",
-			"..."
-		],
-		"references":		[
-			"{REFERENCE_1}",
-			"{REFERENCE_2}",
-			"..."
-		]
-	}
-}
-```
+An example template definition schema is available [here](https://github.com/intigriti/misconfig-mapper/#templates).
+
 
 ### Template Type Definitions
 

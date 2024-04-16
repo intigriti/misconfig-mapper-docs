@@ -21,7 +21,7 @@ Below is a list of all the misconfigurations that have been **documented and aut
 A more extensive list can be requested by executing the following command on the provided [CLI tool](cli-tool.md):
 
 ```bash
-$ ./misconfig-mapper -services
+$ ./misconfig-mapper -list-services
 ```
 {% endhint %}
 

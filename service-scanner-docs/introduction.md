@@ -30,8 +30,14 @@ Some features include:
 
 At the moment, there are 15+ services available. [Click here](services.md) to view the full list of services covered.
 
+{% content-ref url="services.md" %}
+[services.md](services.md)
+{% endcontent-ref %}
+
 ## Contributions
 
-Contributions to the project are encouraged! Please learn more on how to contribute to the project below:
+Contributions to the project are encouraged! Please learn more on how to contribute to the project on the following page:
 
-{INSTRUCTIONS & GUIDELINES TO CONTRIBUTE}
+{% content-ref url="../readme/contributing.md" %}
+[contributing.md](../readme/contributing.md)
+{% endcontent-ref %}

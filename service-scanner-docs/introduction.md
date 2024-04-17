@@ -41,3 +41,7 @@ Contributions to the project are encouraged! Please learn more on how to contrib
 {% content-ref url="../readme/contributing.md" %}
 [contributing.md](../readme/contributing.md)
 {% endcontent-ref %}
+
+## License
+
+This project is licensed and available under the [MIT License](https://github.com/intigriti/misconfig-mapper/blob/main/LICENSE.md).

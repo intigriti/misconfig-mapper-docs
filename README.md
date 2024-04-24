@@ -1,6 +1,6 @@
 ---
 cover: .gitbook/assets/Intigriti-Misconfig-Mapper-Gitbook-option2.png
-coverY: 77.22666666666666
+coverY: 158.07945854483924
 layout:
   cover:
     visible: true

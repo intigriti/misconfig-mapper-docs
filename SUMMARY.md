@@ -12,6 +12,8 @@
   * [GraphQL Introspection Query Enabled](services/graphql/graphql-introspection-query-enabled.md)
 * [Symfony PHP](services/symfony-php/README.md)
   * [Symfony Profiler Enabled](services/symfony-php/symfony-profiler-enabled.md)
+* [Postman API Platform](services/symfony-php-1/README.md)
+  * [Public Workspaces](services/symfony-php-1/symfony-profiler-enabled.md)
 * [Trello](services/trello/README.md)
   * [View Permissions on Trello Boards](services/trello/view-permissions-on-trello-boards.md)
 * [Figma](services/figma/README.md)

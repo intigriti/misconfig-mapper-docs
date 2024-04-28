@@ -50,7 +50,7 @@ Please do note that currently not every documented misconfiguration has been aut
 * [Symfony](../services/symfony-php/)
 * [Laravel](../services/laravel/)
 * [GraphQL](../services/graphql/)
-* [Postman API Platform](../services/symfony-php-1/)
+* [Postman API Platform](../services/postman-api-platform/)
 
 ## Upcoming Services
 

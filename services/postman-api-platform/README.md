@@ -8,4 +8,4 @@ description: >-
 
 **Misconfigurations:**
 
-1. [Public Workspaces](symfony-profiler-enabled.md)
+1. [Public Workspaces](public-workspaces.md)

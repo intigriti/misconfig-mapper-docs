@@ -20,7 +20,7 @@ To check if you have permissions to invite a new member:
 
 These reproduction steps prove that you're able to invite new members without approval from an administrator.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/slack/0.png" alt=""><figcaption></figcaption></figure>
 
 #### Remediation:
 
@@ -35,7 +35,7 @@ To do so:
 5. Check the **Require admin approval** box, additionally, select the channel to receive requests in.
 6. Finally click **Save** to save your changes
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/slack/1.png" alt=""><figcaption></figcaption></figure>
 
 #### Potential Impact:
 

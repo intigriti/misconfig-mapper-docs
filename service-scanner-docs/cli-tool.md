@@ -49,7 +49,7 @@ $ go build -o misconfig-mapper
 $ ./misconfig-mapper -target "yourcompanyname" -service 1 -delay 1000
 ```
 
-![Example 1](../.gitbook/assets/example\_1.png)
+![Example 1](../.gitbook/assets/cli-tool/0.png)
 
 **Example 2:** Perform a detection-only scan to enumerate all third-party services (without checking for any misconfigurations)
 
@@ -57,7 +57,7 @@ $ ./misconfig-mapper -target "yourcompanyname" -service 1 -delay 1000
 $ ./misconfig-mapper -target "yourcompanyname" -service 1 -skip-misconfiguration-checks true
 ```
 
-![Example 2](../.gitbook/assets/example\_2.png)
+![Example 2](../.gitbook/assets/cli-tool/1.png)
 
 **Example 3:** Only test for one specific service (by ID or name)
 
@@ -69,7 +69,7 @@ $ ./misconfig-mapper -target "yourcompanyname" -service 1
 $ ./misconfig-mapper -target "yourcompanyname" -service "drupal"
 ```
 
-![Example 3](../.gitbook/assets/example\_3.png)
+![Example 3](../.gitbook/assets/cli-tool/2.png)
 
 **Example 4:** Print out all loaded services
 
@@ -77,7 +77,7 @@ $ ./misconfig-mapper -target "yourcompanyname" -service "drupal"
 $ ./misconfig-mapper -list-services
 ```
 
-<figure><img src="../.gitbook/assets/example_4.png" alt=""><figcaption><p>Example 4</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/cli-tool/3.png" alt=""><figcaption><p>Example 4</p></figcaption></figure>
 
 Additionally, you can pass request headers using the `-headers` flag to comply with any request requirements (separate each header using a **double semi-colon**):
 

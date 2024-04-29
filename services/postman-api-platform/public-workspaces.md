@@ -24,14 +24,14 @@ To change the visibility of your Postman API workspace:
 
 1. From your profile, go to your **Workspaces**:
 
-<figure><img src="../../.gitbook/assets/postman-api/0.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/postman-api-platform/0.png" alt=""><figcaption></figcaption></figure>
 
 2. Next, open the Workspace you'd like to change the visibility of
 3. Click on **Workspace Settings**
 4. And click on **Who can access this workspace?** to unfold the available options
 5. Finally, make sure you select **Only me** to change the visibility of your workspace and make it only accessible to you.
 
-<figure><img src="../../.gitbook/assets/postman-api/1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/postman-api-platform/1.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 _It is a best practice to not have any hard-coded credentials in your code._

@@ -24,8 +24,6 @@ or:
 curl -s 'https://jenkins.{HOST}/scriptText' -X 'POST' --data 'script={SCRIPT}'
 ```
 
-<figure><img src="../../.gitbook/assets/jenkins/2.png" alt=""><figcaption><p><strong>Anonymous Users shouldn't have Administrator access</strong></p></figcaption></figure>
-
 #### Remediation:
 
 Make sure to enforce proper account access restrictions and prevent non-administrator or non-privileged accounts from accessing the script console.

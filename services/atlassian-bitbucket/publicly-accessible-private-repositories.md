@@ -53,11 +53,11 @@ To do so:
 1. Navigate to your workspace
 2.  Click on the **settings icon** and open **Workspace settings**
 
-<figure><img src="../../.gitbook/assets/bitbucket/5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/atlassian/bitbucket/5.png" alt=""><figcaption></figcaption></figure>
 
 3.  And make sure the option "**Keep this workspace private**" is checked and **save your settings**:
 
-<figure><img src="../../.gitbook/assets/bitbucket/6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/atlassian/bitbucket/6.png" alt=""><figcaption></figcaption></figure>
 
 #### Potential Impact:
 

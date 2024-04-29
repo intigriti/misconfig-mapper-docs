@@ -34,7 +34,7 @@ To change the visibility of your Postman API workspace:
 <figure><img src="../../.gitbook/assets/postman-api-platform/1.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-_It is a best practice to not have any hard-coded credentials in your code._
+Always follow best practices and never leave any hard-coded credentials in your code.
 {% endhint %}
 
 #### Potential Impact:

@@ -22,7 +22,7 @@ Some features include:
 * Template-based (easy configuration of new services)
 * Passive-only tests
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p><em>Example of a misconfigured "Atlassian Jira Service Desk" finding using Misconfig Mapper.</em></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/cli-tool/0.png" alt=""><figcaption><p><em>Example of a misconfigured "Atlassian Jira Service Desk" finding using Misconfig Mapper.</em></p></figcaption></figure>
 
 {% embed url="https://github.com/intigriti/misconfig-mapper" %}
 

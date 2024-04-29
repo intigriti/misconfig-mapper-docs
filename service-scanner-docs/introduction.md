@@ -10,7 +10,7 @@ The documentation has all the known misconfigured services documented. Each sect
 
 Each page is further divided into 5 separate sections; "Description", "Testing", "Remediation", "Potential Impact" and "References" (if any).
 
-<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption><p><em>Example of a Public Groovy Script Console accessible on a misconfigured Jenkins instance.</em></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/jenkins/2.png" alt=""><figcaption><p><em>Example of a Public Groovy Script Console accessible on a misconfigured Jenkins instance.</em></p></figcaption></figure>
 
 ## Scanner
 

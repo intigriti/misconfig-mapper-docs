@@ -18,7 +18,7 @@ Make sure you select the appropriate **visibility level** on your shared code sn
 
 When for instance, you create a new code snippet, the visibility level will be set to **Private** by default:
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/gitlab/0.png" alt=""><figcaption></figcaption></figure>
 
 Make sure to cross-check your saved settings before accidentally exposing any sensitive data.
 

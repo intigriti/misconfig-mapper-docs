@@ -24,9 +24,9 @@ You can easily disable view access for every unauthorized user, to do so:
 4. Select **Only people invited to this file** instead of **Anyone with the link**
 5. Each user that attempts to view your design will now be required to sign in first instead
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/figma/0.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/figma/1.png" alt=""><figcaption></figcaption></figure>
 
 #### Potential Impact:
 

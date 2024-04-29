@@ -20,7 +20,7 @@ It is always recommended to make sure that in case your Google Group is intended
 
 When, for instance, you create a group, the second step prompts you to select Privacy settings. Make sure to revise your options before unintentionally making changes that could introduce a new attack vector.
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Choose privacy settings for a new Google Group</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/google/groups/0.png" alt=""><figcaption><p>Choose privacy settings for a new Google Group</p></figcaption></figure>
 
 #### Potential Impact:
 

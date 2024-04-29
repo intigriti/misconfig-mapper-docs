@@ -20,7 +20,7 @@ A description contains a small overview about what the service and misconfigurat
 
 #### Testing
 
-The testing section should provide clear to follow steps on how to test for the documented misconfiguration. This may include proof of concepts, images, and other supporting references to help users identify the presence of this security misconfiguration.
+The testing section should provide clear to follow steps on how to test for the documented misconfiguration. This may include proof of concepts, images, and other supporting references to help users identify the presence of the security misconfiguration.
 
 #### Remediation
 

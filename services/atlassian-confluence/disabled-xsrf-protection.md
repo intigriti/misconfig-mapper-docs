@@ -29,7 +29,7 @@ It is always recommended to **upgrade and use the latest version available** of 
 4. Make sure that **XSRF Protection for adding comments** is **enabled**
 5. Save your changes
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/atlassian/confluence/1.png" alt=""><figcaption></figcaption></figure>
 
 #### Potential Impact:
 

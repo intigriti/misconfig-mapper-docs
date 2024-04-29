@@ -23,7 +23,7 @@ Make sure to set the proper setting for email visibility. One way to do so is:
 5. Scroll down to **Portal access** and select **Don't allow customers to create their own accounts**
 6. Save your settings
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/atlassian/jira/4.png" alt=""><figcaption></figcaption></figure>
 
 #### Potential Impact:
 

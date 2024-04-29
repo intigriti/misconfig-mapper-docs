@@ -19,9 +19,9 @@ Make sure to set the proper setting for email visibility. One way to do so is:
 5. Scroll down to **User email visibility** and select the appropriate setting
 6. Save your settings
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/atlassian/jira/0.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/atlassian/jira/1.png" alt=""><figcaption></figcaption></figure>
 
 #### Potential Impact:
 

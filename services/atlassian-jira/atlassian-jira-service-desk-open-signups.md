@@ -21,7 +21,7 @@ Make sure to disable signups for Service Desk. One way to do so is:
 3. Make the appropriate changes and **remove Portal access for non-authorized users**
 4. Save your settings
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/atlassian/jira/2.png" alt=""><figcaption></figcaption></figure>
 
 To further secure your company from unauthorized access to your Atlassian products, you are recommended to enforce an email domain whitelist:
 
@@ -32,7 +32,7 @@ To do so:
 3. Next, remove all access from **Any domain** if you haven't already
 4. Verify and add your own domain to only allow users with your whitelisted domain to get access
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/atlassian/jira/3.png" alt=""><figcaption></figcaption></figure>
 
 #### Potential Impact:
 

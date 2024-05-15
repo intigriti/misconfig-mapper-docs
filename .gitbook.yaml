@@ -1,0 +1,5 @@
+root: ./misconfig-mapper-docs
+
+​structure:
+  readme: GITBOOK-README.md
+  summary: SUMMARY.md​

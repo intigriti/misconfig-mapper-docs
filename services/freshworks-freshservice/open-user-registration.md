@@ -30,6 +30,7 @@ Make sure to set the proper setting for new signups. One way to do so is:
 
 <figure><img src="../../.gitbook/assets/freshworks/freshservice/3.png" alt=""><figcaption></figcaption></figure>
 
+From now on, visiting the signup app route `/support/signup` should return a 403 Forbidden HTTP response.
 
 #### Potential Impact:
 

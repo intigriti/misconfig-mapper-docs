@@ -31,7 +31,6 @@ Make sure to set the proper setting for new signups. One way to do so is:
 <figure><img src="../../.gitbook/assets/freshworks/freshservice/3.png" alt=""><figcaption></figcaption></figure>
 
 
-
 #### Potential Impact:
 
 In case registrations are left open for anyone to signup to your Freshworks Freshservice instance, depending on the in-app permissions set, it could mean that new users get access to internal-only resources, such as support tickets, company metrics or even personal identifiable information (PII) of customers or clients.

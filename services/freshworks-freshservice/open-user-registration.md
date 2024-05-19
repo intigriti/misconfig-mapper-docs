@@ -2,28 +2,35 @@
 
 #### Description:
 
-It is possible that anyone can signup in your Freshworks Freshservice instance due to a misconfiguration in the domain allow list.
+It is possible that anyone can signup in your Freshworks Freshservice instance due to a misconfiguration in the domain allow list. **Freshservice allows by default anyone to create an account on your instance.**
 
 #### Testing:
 
 You can cross-check if user registration is open for anyone by navigating to the following app route:
 
 ```
-https://<companyName>.freshservice.com/
+https://<companyName>.freshservice.com/support/signup
 ```
+
+<figure><img src="../../.gitbook/assets/freshworks/freshservice/0.png" alt=""><figcaption></figcaption></figure>
 
 #### Remediation:
 
 Make sure to set the proper setting for new signups. One way to do so is:
 
 1. Visit your **Freshworks Freshservice Instance**
-2. Next, navigate to **Admin**
-3. Click on **Channels**
-4. Next, click on **Portals**
-5. And click on **Settings**
-6. Finally, select the option **No** under **"Allow users to Sign Up from the customer portal"**
+2. Next, click on **Admin** in your side-navigation menubar
+<figure><img src="../../.gitbook/assets/freshworks/freshservice/1.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/freshdesk/freshservice/0.png" alt=""><figcaption></figcaption></figure>
+3. And search for **"Support portal"** and click on it
+<figure><img src="../../.gitbook/assets/freshworks/freshservice/2.png" alt=""><figcaption></figcaption></figure>
+
+4. And finally, select the option **No** under **"Allow users to Sign Up from the customer portal"**
+5. Make sure to click **"Save"** to save your changes.
+
+<figure><img src="../../.gitbook/assets/freshworks/freshservice/3.png" alt=""><figcaption></figcaption></figure>
+
+
 
 #### Potential Impact:
 

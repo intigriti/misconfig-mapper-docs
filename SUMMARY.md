@@ -1,9 +1,9 @@
 # Table of contents
 
 * [Misconfig Mapper Docs](README.md)
-  * [Introduction](service-scanner-docs/introduction.md)
-  * [Supported Services](service-scanner-docs/services.md)
-  * [CLI Tool](service-scanner-docs/cli-tool.md)
+  * [Introduction](misconfig-mapper-docs/introduction.md)
+  * [Supported Services](misconfig-mapper-docs/services.md)
+  * [CLI Tool](misconfig-mapper-docs/cli-tool.md)
   * [Contributing](readme/contributing.md)
 
 ## Services
@@ -18,6 +18,8 @@
   * [View Permissions on Trello Boards](services/trello/view-permissions-on-trello-boards.md)
 * [Figma](services/figma/README.md)
   * [View access misconfiguration](services/figma/view-access-misconfiguration.md)
+* [Freshworks Freshservice](services/freshworks-freshservice/README.md)
+  * [Open User Registration](services/freshworks-freshservice/open-user-registration.md)
 * [Slack](services/slack/README.md)
   * [No Admin Approval for Invitations](services/slack/no-admin-approval-for-invitations.md)
 * [Atlassian Bitbucket](services/atlassian-bitbucket/README.md)

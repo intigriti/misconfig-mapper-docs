@@ -14,7 +14,7 @@ You can cross-check if user registration is open for anyone by navigating to the
 
 #### Remediation:
 
-Make sure to set the proper setting for email visibility. One way to do so is:
+Make sure to set the proper setting for new signups. One way to do so is:
 
 1. Visit your **Atlassian Jira Instance**
 2. Next, open up your settings by clicking on the gear icon next to your profile

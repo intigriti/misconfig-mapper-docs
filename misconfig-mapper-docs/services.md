@@ -43,7 +43,7 @@ Please do note that currently not every documented misconfiguration has been aut
 * [Google Groups](../services/google-groups/)
 * [Google Docs](../services/google-docs/)
 * [Google Cloud Storage Bucket](../services/google-cloud-storage-bucket/)
-* [Google OAuth 2.0](.../services/google-cloud-storage-bucket/)
+* [Google OAuth 2.0](.../services/google-oauth-2.0/)
 * [Jenkins](../services/jenkins/)
 * [GitLab](../services/gitlab/)
 * [Drupal](../services/drupal/)

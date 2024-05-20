@@ -4,7 +4,7 @@ description: >-
   authentication and authorization
 ---
 
-# Google OAuth
+# Google OAuth 2.0
 
 **Misconfigurations:**
 

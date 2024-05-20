@@ -7,4 +7,4 @@ description: >-
 
 ### Misconfigurations:
 
-1. [Public Signup](open-user-registration.md)
+1. [Open User Registration](open-user-registration.md)

@@ -8,6 +8,6 @@ description: >-
 
 ### Misconfigurations:
 
-1. [Public Signup](open-user-registration.md)
+1. [Open User Registration](open-user-registration.md)
 2. [Misconfigured Email Visibility](atlassian-jira-email-visibility.md)
 3. [Open Service Desk registration](atlassian-jira-service-desk-open-signups.md)

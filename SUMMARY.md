@@ -28,6 +28,7 @@
   * [Anonymous access to Remote API](services/atlassian-confluence/anonymous-access-to-remote-api.md)
   * [Disabled XSRF Protection](services/atlassian-confluence/disabled-xsrf-protection.md)
   * [User Email Visibility](services/atlassian-confluence/user-email-visibility.md)
+  * [Misconfigured Spaces](misconfigured-spaces.md)
 * [Atlassian Jira](services/atlassian-jira/README.md)
   * [Open User Registration](services/atlassian-jira/open-user-registration.md)
   * [Atlassian Jira Email Visibility](services/atlassian-jira/atlassian-jira-email-visibility.md)

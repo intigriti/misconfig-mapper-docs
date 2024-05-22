@@ -11,3 +11,4 @@ description: >-
 1. [Anonymous access to Remote API](anonymous-access-to-remote-api.md)
 2. [Disabled XSRF Protection](disabled-xsrf-protection.md)
 3. [User Email Visibility](user-email-visibility.md)
+3. [Misconfigured Spaces](misconfigured-spaces.md)

@@ -52,6 +52,7 @@ Please do note that currently not every documented misconfiguration has been aut
 * [Laravel](../services/laravel/)
 * [GraphQL](../services/graphql/)
 * [Postman API Platform](../services/postman-api-platform/)
+* [Salesforce](../services/salesforce/)
 
 ## Upcoming Services
 
@@ -63,7 +64,6 @@ Please do note that currently not every documented misconfiguration has been aut
 * [ ] Monday.com
 * [ ] Asana
 * [ ] Favro
-* [ ] Wiki Atlassian
 * [ ] Intercom
 * [ ] Clickup
 * [ ] Basecamp
@@ -71,8 +71,6 @@ Please do note that currently not every documented misconfiguration has been aut
 * [ ] Github
 * [ ] Hubspot
 * [ ] Azure DevOps
-* [ ] Salesforce
-* [ ] Bitbucket
 * [ ] Okta
 * [ ] Sentry
 * [ ] Quip

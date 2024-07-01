@@ -15,8 +15,9 @@ Salesforce also provides support for components. Components are used to help wit
 Replicate the following POST HTTP request verify that the Aura component is enabled:
 
 ```http
-POST /s/sfsites/aura
+POST /s/sfsites/aura HTTP/2
 Host: {TARGET}
+Content-Type: application/x-www-form-urlencoded
 ...
 
 ```

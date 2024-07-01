@@ -8,9 +8,25 @@ Access to these (custom) Objects can be configured incorrectly and allow unautho
 
 Salesforce allows organizations and admins to configure (custom) objects using Controllers. [Controllers](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_controller.htm) are like functions that can be defined to manage Objects. Incorrectly configuring a Controller can introduce broken access control security vulnerabilities.
 
+Salesforce also provides support for components. Components are used to help with the development of UI elements and apps in general. In this document, we will be mainly covering the [Aura Component](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/intro_components.htm).
+
 #### Testing:
 
-Testing
+Replicate the following POST HTTP request verify that the Aura component is enabled:
+
+```http
+POST /s/sfsites/aura
+Host: {TARGET}
+...
+
+```
+
+If the HTTP request above returned a 404 status code, try requesting one of the following app routes:
+
+```
+/aura
+/sfsites/aura
+```
 
 #### Remediation:
 

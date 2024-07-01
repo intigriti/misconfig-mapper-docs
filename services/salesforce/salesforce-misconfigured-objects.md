@@ -2,7 +2,9 @@
 
 #### Description:
 
-Description
+Salesforce is an extensive CRM software that also provides several programming technologies like Objects. Objects are data tables that can be used to store data in fields.
+
+Access to these (custom) Objects can be configured incorrectly and allow unauthorized users to read more data than allowed.
 
 #### Testing:
 

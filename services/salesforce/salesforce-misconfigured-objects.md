@@ -6,7 +6,7 @@ Salesforce is an extensive CRM software that also provides several programming t
 
 Access to these (custom) Objects can be configured incorrectly and allow unauthorized users to read more data than allowed.
 
-Salesforce allows organizations and admins to configure (custom) objects using Controllers. (Controllers)[https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_controller.htm] are like functions that can be defined to manage Objects. Incorrectly configuring a Controller can introduce broken access control security vulnerabilities.
+Salesforce allows organizations and admins to configure (custom) objects using Controllers. [Controllers](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_controller.htm) are like functions that can be defined to manage Objects. Incorrectly configuring a Controller can introduce broken access control security vulnerabilities.
 
 #### Testing:
 

@@ -15,7 +15,7 @@
 * [Postman API Platform](services/postman-api-platform/README.md)
   * [Public Workspaces](services/postman-api-platform/public-workspaces.md)
 * [Salesforce](services/salesforce/README.md)
-  * [Salesforce Misconfigured Objects](services/salesforce/salesforce-misconfigured-objects.md)
+  * [Salesforce Aura Component Enabled](services/salesforce/salesforce-aura-component-enabled.md)
 * [Trello](services/trello/README.md)
   * [View Permissions on Trello Boards](services/trello/view-permissions-on-trello-boards.md)
 * [Figma](services/figma/README.md)

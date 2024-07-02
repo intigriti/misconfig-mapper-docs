@@ -1,4 +1,4 @@
-# Salesforce Misconfigured Objects
+# Salesforce Aura Component Enabled
 
 #### Description:
 
@@ -16,7 +16,7 @@ Replicate the following POST HTTP request verify that the Aura component is enab
 
 ```http
 POST /s/sfsites/aura HTTP/2
-Host: {TARGET}
+Host: {TARGET}.force.com
 Content-Type: application/x-www-form-urlencoded
 ...
 

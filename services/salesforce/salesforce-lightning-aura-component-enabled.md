@@ -60,7 +60,15 @@ Salesforce Lightning employs a role-based security model and essentially allows 
 
 It is essential to revise the current options for each (custom) object and set up strict access controls for each role based on their scope.
 
+On your Salesforce Lightning instance, you can navigate to `/lightning/setup/Profiles/home` to view all the profiles.
+
 <figure><img src="../../.gitbook/assets/salesforce/0.png" alt=""><figcaption></figcaption></figure>
+
+Select a profile and revise each enabled permission individually. Make changes to the profiles accordingly.
+
+<figure><img src="../../.gitbook/assets/salesforce/1.png" alt=""><figcaption></figcaption></figure>
+
+**Make sure to save your changes at the end.**
 
 {% hint style="danger" %}
 **Do not only set permissions for Guest users.** A common mistake made by admins is only enforcing access controls for non-authenticated users while self-signup is enabled.

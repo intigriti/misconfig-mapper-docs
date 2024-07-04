@@ -2,11 +2,17 @@
 
 #### Description:
 
-Salesforce is an extensive CRM software that includes a Ligthening Framework to help developers, admins and IT teams to create responsive (web) applications effortlessly.
+Salesforce is an extensive CRM software that includes [Lightning Framework](https://www.salesforce.com/eu/campaign/lightning/), a framework with a set of reusable components to help developers, admins and IT teams to create responsive (web) applications effortlessly.
 
 Salesforce Lightning also provides support for data storage (Objects), and the creation of custom controllers (functions) through Salesforce's strongly typed programming language (Apex).
 
-Correctly configuring role-based permissions and access controls can be a tedious task for inexperienced users. Security misconfigurations may arise if access controls are not properly enforced. These security issues often result in excessive data leaks (including PII), unwanted data modifications, privilege escalations, etc.
+The Aura component enables the Aura API endpoint and allows (external) users to interact with Salesforce Objects and Controllers.
+
+Since correctly configuring role-based permissions and access controls can be a tedious task for inexperienced users. Security misconfigurations may arise if access controls are not properly enforced. These security issues often result in excessive data leaks (including PII), unwanted data modifications, privilege escalations, etc. through the Aura endpoint.
+
+{% hint style="info" %}
+[As outlined in the official documentation](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/intro_benefits.htm), the [Aura component](https://developer.salesforce.com/docs/component-library/bundle/aura:component) is only recommended to be enabled when Salesforce Lightning does not provide built-in support for the required feature or functionality.
+{% endhint %}
 
 #### Testing:
 

@@ -168,6 +168,7 @@ This information is often later used for further exploitation to aid in finding 
 
 #### References:
 
+* [https://blog.intigriti.com/2024/05/31/five-easy-ways-to-hack-graphql-targets/](https://blog.intigriti.com/2024/05/31/five-easy-ways-to-hack-graphql-targets/)
 * [https://graphql.org/learn/introspection/](https://graphql.org/learn/introspection/)
 * [https://cheatsheetseries.owasp.org/cheatsheets/GraphQL\_Cheat\_Sheet.html#introspection-graphiql](https://cheatsheetseries.owasp.org/cheatsheets/GraphQL\_Cheat\_Sheet.html#introspection-graphiql)
 * [https://www.apollographql.com/blog/graphql/security/why-you-should-disable-graphql-introspection-in-production/](https://www.apollographql.com/blog/graphql/security/why-you-should-disable-graphql-introspection-in-production/)

@@ -44,7 +44,9 @@ The target instance can also be pointed to one of the following FQDNs:
 
 #### Remediation:
 
-It is recommended to revise the options for Unauthenticated and Guest users and restrict access to only the resources and components that are required.
+Salesforce Lightning employs a role-based security model and essentially allows admins to configure security access controls on CRUD operations on 3 different levels; Object (database), Field (column) and Record (data-entry) level.
+
+It is essential to revise the current options for each (custom) object and set up strict access controls for each role based on their scope.
 
 <figure><img src="../../.gitbook/assets/salesforce/0.png" alt=""><figcaption></figcaption></figure>
 

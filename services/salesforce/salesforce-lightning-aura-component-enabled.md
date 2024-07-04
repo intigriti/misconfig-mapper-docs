@@ -50,6 +50,9 @@ It is essential to revise the current options for each (custom) object and set u
 
 <figure><img src="../../.gitbook/assets/salesforce/0.png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="danger" %}
+**Do not only set permissions for Guest users.** A common mistake made by admins is only enforcing access controls for non-authenticated users while self-signup is enabled.
+{% endhint %}
 
 #### Potential Impact:
 

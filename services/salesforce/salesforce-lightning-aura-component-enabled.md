@@ -20,7 +20,7 @@ Replicate the following POST HTTP request verify that the Aura component is enab
 
 ```http
 POST /aura HTTP/2
-Host: {TARGET}.force.com
+Host: {TARGET}.lightning.force.com
 Content-Type: application/json
 
 {}

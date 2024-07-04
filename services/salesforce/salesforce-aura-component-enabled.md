@@ -1,32 +1,39 @@
-# Salesforce Aura Component Enabled
+# Salesforce Lightening Aura Component Enabled
 
 #### Description:
 
-Salesforce is an extensive CRM software that also provides several programming technologies like Objects. [Objects](https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_concepts.htm) are data tables that can be used to store data in fields.
+Salesforce is an extensive CRM software that includes a Ligthening Framework to help developers, admins and IT teams to create responsive (web) applications effortlessly.
 
-Access to these (custom) Objects can be configured incorrectly and allow unauthorized users to read more data than allowed.
+Salesforce Lightening also provides support for data storage (Objects), and the creation of custom controllers (functions) through Salesforce's strongly typed programming language (Apex).
 
-Salesforce allows organizations and admins to configure (custom) objects using Controllers. [Controllers](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_controller.htm) are like functions that can be defined to manage Objects. Incorrectly configuring a Controller can introduce broken access control security vulnerabilities.
-
-Salesforce also provides support for components. Components are used to help with the development of UI elements and apps in general. In this document, we will be mainly covering the [Aura Component](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/intro_components.htm).
+Correctly configuring role-based permissions and access controls can be a tedious task for inexperienced users. Security misconfigurations may arise if access controls are not properly enforced. These security issues often result in excessive data leaks (including PII), unwanted data modifications, privilege escalations, etc.
 
 #### Testing:
 
 Replicate the following POST HTTP request verify that the Aura component is enabled:
 
 ```http
-POST /s/sfsites/aura HTTP/2
+POST /aura HTTP/2
 Host: {TARGET}.force.com
-Content-Type: application/x-www-form-urlencoded
-...
+Content-Type: application/json
 
+{}
 ```
+
+The endpoint should respond with an invalid session error (`aura:invalidSession`)
 
 If the HTTP request above returned a 404 status code, try requesting one of the following app routes:
 
 ```
-/aura
 /sfsites/aura
+/s/sfsites/aura
+```
+
+The target instance can also be pointed to one of the following FQDNs:
+```
+*.force.com
+*.secure.force.com
+*.live.siteforce.com
 ```
 
 #### Remediation:
@@ -43,9 +50,13 @@ Potential Impact
 #### References:
 
 * [https://www.enumerated.ie/index/salesforce](https://www.enumerated.ie/index/salesforce)
+* [https://www.enumerated.ie/index/salesforce-lightning-tinting-the-windows](https://www.enumerated.ie/index/salesforce-lightning-tinting-the-windows)
 * [https://infosecwriteups.com/in-simple-words-pen-testing-salesforce-saas-application-part-1-the-essentials-ffae632a00e5](https://infosecwriteups.com/in-simple-words-pen-testing-salesforce-saas-application-part-1-the-essentials-ffae632a00e5)
 * [https://infosecwriteups.com/in-simple-words-pen-testing-salesforce-saas-application-part-2-fuzz-exploit-eefae11ba5ae](https://infosecwriteups.com/in-simple-words-pen-testing-salesforce-saas-application-part-2-fuzz-exploit-eefae11ba5ae)
 * [https://infosecwriteups.com/salesforce-bug-hunting-to-critical-bug-b5da44789d3](https://infosecwriteups.com/salesforce-bug-hunting-to-critical-bug-b5da44789d3)
+* [https://www.biswajeetsamal.com/blog/salesforce-object-key-prefix-list/](https://www.biswajeetsamal.com/blog/salesforce-object-key-prefix-list/)
 * [https://www.varonis.com/blog/abusing-salesforce-communities](https://www.varonis.com/blog/abusing-salesforce-communities)
 * [https://web.archive.org/web/20210116171949/https://mcafee.com/blogs/enterprise/cloud-security/17-must-enable-salesforce-security-capabilities-and-other-best-practices/](https://web.archive.org/web/20210116171949/https://mcafee.com/blogs/enterprise/cloud-security/17-must-enable-salesforce-security-capabilities-and-other-best-practices/)
+* [https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/intro_lightning.htm](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/intro_lightning.htm)
 * [https://help.salesforce.com/s/articleView?id=ind.media_asm_Disable_Lightning_Web_Security.htm&type=5](https://help.salesforce.com/s/articleView?id=ind.media_asm_Disable_Lightning_Web_Security.htm&type=5)
+* [https://trailhead.salesforce.com/content/learn/modules/data_security/data_security_records](https://trailhead.salesforce.com/content/learn/modules/data_security/data_security_records)

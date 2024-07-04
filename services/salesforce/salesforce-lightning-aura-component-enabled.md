@@ -26,9 +26,21 @@ Content-Type: application/json
 {}
 ```
 
-The endpoint should respond with an invalid session error (`aura:invalidSession`)
+The endpoint should respond with a 401 Unauthorized status code indicating an invalid session error (`aura:invalidSession`):
 
-If the HTTP request above returned a 404 status code, try requesting one of the following app routes:
+```http
+HTTP/2 401 Unauthorized
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Robots-Tag: none
+Referrer-Policy: origin-when-cross-origin
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json
+
+{"event":{"descriptor":"markup://aura:invalidSession","attributes":{"values":{}},"eventDef":{"descriptor":"markup://aura:invalidSession","t":"APPLICATION","xs":"I","a":{"newToken":["newToken","aura://String","I",false]}}},"exceptionEvent":true}
+```
+
+If the HTTP request above returned a 404 status code, try requesting one of the following API endpoints:
 
 ```
 /sfsites/aura

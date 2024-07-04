@@ -1,10 +1,10 @@
-# Salesforce Lightening Aura Component Enabled
+# Salesforce Lightning Aura Component Enabled
 
 #### Description:
 
 Salesforce is an extensive CRM software that includes a Ligthening Framework to help developers, admins and IT teams to create responsive (web) applications effortlessly.
 
-Salesforce Lightening also provides support for data storage (Objects), and the creation of custom controllers (functions) through Salesforce's strongly typed programming language (Apex).
+Salesforce Lightning also provides support for data storage (Objects), and the creation of custom controllers (functions) through Salesforce's strongly typed programming language (Apex).
 
 Correctly configuring role-based permissions and access controls can be a tedious task for inexperienced users. Security misconfigurations may arise if access controls are not properly enforced. These security issues often result in excessive data leaks (including PII), unwanted data modifications, privilege escalations, etc.
 
@@ -45,7 +45,9 @@ It is recommended to revise the options for Unauthenticated and Guest users and 
 
 #### Potential Impact:
 
-Potential Impact
+Unauthorized users may retrieve sensitive data, perform unwanted actions and/or even escalate their current privileges when insufficient access controls are enforced on Salesforce Lightning.
+
+It is necessary to revise all access controls and prevent any unauthorized users from viewing or performing any type of action beyond what is required in their scope or role.
 
 #### References:
 

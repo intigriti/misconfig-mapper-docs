@@ -56,6 +56,7 @@ Please do note that currently not every documented misconfiguration has been aut
 
 ## Upcoming Services
 
+* [ ] ServiceNow
 * [ ] Python Flask
 * [ ] Wordpress
 * [ ] Productboard

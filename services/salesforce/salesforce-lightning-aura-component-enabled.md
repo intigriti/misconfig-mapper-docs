@@ -2,7 +2,7 @@
 
 #### Description:
 
-Salesforce is an extensive CRM software that includes **Lightning** Framework](https://www.salesforce.com/eu/campaign/lightning/). This framework has a set of reusable components to help developers, admins, and IT teams create responsive (web) applications effortlessly.
+Salesforce is an extensive CRM software that includes **Lightning** Framework (https://www.salesforce.com/eu/campaign/lightning/). This framework has a set of reusable components to help developers, admins, and IT teams create responsive (web) applications effortlessly.
 
 **Salesforce Lightning** also provides support for data storage (Objects), and the creation of custom controllers (functions) through Salesforce's strongly typed programming language **Apex**.
 

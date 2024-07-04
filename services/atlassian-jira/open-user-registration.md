@@ -12,6 +12,8 @@ You can cross-check if user registration is open for anyone by navigating to the
 /secure/Signup!default.jspa
 ```
 
+<figure><img src="../../.gitbook/assets/atlassian/jira/4.png" alt=""><figcaption></figcaption></figure>
+
 #### Remediation:
 
 Make sure to set the proper setting for new signups. One way to do so is:
@@ -23,7 +25,7 @@ Make sure to set the proper setting for new signups. One way to do so is:
 5. Scroll down to **Portal access** and select **Don't allow customers to create their own accounts**
 6. Save your settings
 
-<figure><img src="../../.gitbook/assets/atlassian/jira/4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/atlassian/jira/5.png" alt=""><figcaption></figcaption></figure>
 
 #### Potential Impact:
 

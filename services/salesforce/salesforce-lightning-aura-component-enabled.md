@@ -75,10 +75,10 @@ Select a profile and revise each enabled permission individually. Make changes t
 **Make sure to save your changes at the end.**
 
 {% hint style="danger" %}
-**Do not only set permissions for Guest users.** A common mistake admins make is only enforcing access controls for non-authenticated users when it is possible for any visitor to sign up for an account.
+**Do not only set permissions for Guest (unauthenticated) visitors.** A common mistake admins make is only enforcing access controls for non-authenticated users when it is possible for any visitor to sign up for an account.
 {% endhint %}
 
-**It is also recommended to turn off API access to Guest (unauthenticated) visitors.**
+**It is also strongly recommended to turn off API access to Guest (unauthenticated) visitors.**
 
 #### Potential Impact:
 

@@ -2,21 +2,25 @@
 
 #### Description:
 
-Salesforce is an extensive CRM software that includes **Lightning** Framework (https://www.salesforce.com/eu/campaign/lightning/). This framework has a set of reusable components to help developers, admins, and IT teams create responsive (web) applications effortlessly.
+Salesforce Experience (or Community) Cloud is a Customer Relationship Management (CRM) platform often used by software companies and organizations to manage their customer relationships, share information & collaborate with their employees and customers (documentation, knowledge bases, help articles, etc.), to provide support using support ticketing and much more.
 
-**Salesforce Lightning** also provides support for data storage (Objects), and the creation of custom controllers (functions) through Salesforce's strongly typed programming language, **Apex**.
+It's a public-facing platform and thereby also indexed by popular search engines like Google and Bing.
 
-The Aura component enables the Aura API endpoint and allows external users to interact with Salesforce Objects and Controllers.
+Salesforce Communities (Experience Cloud) is built upon the Salesforce Lightning Framework. This framework has a set of reusable components to help developers, admins, and IT teams easily create web and mobile applications.
 
-Correctly configuring role-based permissions and access controls can be tedious for inexperienced users. Security misconfigurations may arise if access controls are not properly enforced. These security issues often result in excessive data leaks (including PII), unwanted data modifications, privilege escalations, etc., through the Aura endpoint.
+Salesforce Lightning consists of Aura components, these components are self-contained and reusable allowing developers to speed up the development of their projects.
 
-{% hint style="info" %}
-[As outlined in the official documentation](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/intro_benefits.htm), the [Aura component](https://developer.salesforce.com/docs/component-library/bundle/aura:component) should only to be enabled when Salesforce Lightning does not provide built-in support for the required feature or functionality.
-{% endhint %}
+The framework already comes with pre-built base components that developers and admins can use but Salesforce Lightning also provides the option to create your custom components using Salesforce's strongly typed programming language, Apex.
+
+A custom component can be defined to view or modify data in Salesforce. However, properly enforcing role-based permissions, and adhering to the "Least-privilege" principle often proves to be difficult for inexperienced users as it can get complex rapidly.
+
+A misconfigured custom component can lead to a wide variety of security vulnerabilities, from excessive data leaks (often including personally identifiable information, or PII) to horizontal/vertical privilege escalation.
+
+{% hint style="info" %} As outlined in the official documentation, custom Aura components should only be used when Salesforce Lightning does not provide built-in support for the required feature or functionality. {% endhint %}
 
 #### Testing:
 
-Replicate the following POST HTTP request to verify that the Aura component is enabled:
+Replicate the following POST HTTP request to verify that the Aura API endpoint is enabled for Guest profile (unauthenticated visitors):
 
 ```http
 POST /aura HTTP/2
@@ -56,9 +60,9 @@ The target instance can also be pointed to one of the following FQDNs:
 
 #### Remediation:
 
-Salesforce Lightning employs a role-based security model and essentially allows admins to configure security access controls on CRUD operations at three different levels: the Object (database), Field (column), and Record (data entry) levels.
+Salesforce Lightning employs a role-based security model and essentially allows admins to configure security access controls on CRUD operations at three separate levels: the Object (database), Field (column), and Record (data entry) levels.
 
-Revising the current options for each (custom) object and setting up strict access controls for each role based on their scope is essential.
+Revising the current options for each (custom) profile and adhering to the principle of least privilege is essential.
 
 On your Salesforce Lightning instance, you can navigate to `/lightning/setup/Profiles/home` to view all the profiles.
 
@@ -71,8 +75,10 @@ Select a profile and revise each enabled permission individually. Make changes t
 **Make sure to save your changes at the end.**
 
 {% hint style="danger" %}
-**Do not only set permissions for Guest users.** A common mistake admins make is only enforcing access controls for non-authenticated users while self-signup is enabled.
+**Do not only set permissions for Guest users.** A common mistake admins make is only enforcing access controls for non-authenticated users when it is possible for any visitor to sign up for an account.
 {% endhint %}
+
+**It is also recommended to turn off API access to Guest (unauthenticated) visitors.**
 
 #### Potential Impact:
 

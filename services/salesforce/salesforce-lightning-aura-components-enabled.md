@@ -16,7 +16,7 @@ A custom component can be defined to view or modify data in Salesforce. However,
 
 A misconfigured custom component can lead to a wide variety of security vulnerabilities, from excessive data leaks (often including personally identifiable information, or PII) to horizontal/vertical privilege escalation.
 
-{% hint style="info" %} [As outlined in the official documentation](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/intro_benefits.htm), the [Aura component](https://developer.salesforce.com/docs/component-library/bundle/aura:component), custom Aura components should only be used when Salesforce Lightning does not provide built-in support for the required feature or functionality. {% endhint %}
+{% hint style="info" %} [As outlined in the official documentation](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/intro_benefits.htm), custom Aura components should only be used when Salesforce Lightning does not provide built-in support for the required feature or functionality. {% endhint %}
 
 #### Testing:
 

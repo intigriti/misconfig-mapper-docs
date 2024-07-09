@@ -6,17 +6,17 @@ Salesforce Experience (or Community) Cloud is a Customer Relationship Management
 
 It's a public-facing platform and thereby also indexed by popular search engines like Google and Bing.
 
-Salesforce Communities (Experience Cloud) is built upon the Salesforce Lightning Framework. This framework has a set of reusable components to help developers, admins, and IT teams easily create web and mobile applications.
+Salesforce Communities (Experience Cloud) is built upon the [Salesforce Lightning Framework](https://www.salesforce.com/eu/campaign/lightning/). This framework has a set of reusable components to help developers, admins, and IT teams easily create web and mobile applications.
 
-Salesforce Lightning consists of Aura components, these components are self-contained and reusable allowing developers to speed up the development of their projects.
+Salesforce Lightning consists of [Aura components](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/intro_components.htm), these components are self-contained and reusable allowing developers to speed up the development of their projects.
 
-The framework already comes with pre-built base components that developers and admins can use but Salesforce Lightning also provides the option to create your custom components using Salesforce's strongly typed programming language, Apex.
+The framework already comes with pre-built base components that developers and admins can use but Salesforce Lightning also provides the option to create your custom components using Salesforce's strongly typed programming language, [Apex](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_intro_what_is_apex.htm).
 
 A custom component can be defined to view or modify data in Salesforce. However, properly enforcing role-based permissions, and adhering to the "Least-privilege" principle often proves to be difficult for inexperienced users as it can get complex rapidly.
 
 A misconfigured custom component can lead to a wide variety of security vulnerabilities, from excessive data leaks (often including personally identifiable information, or PII) to horizontal/vertical privilege escalation.
 
-{% hint style="info" %} As outlined in the official documentation, custom Aura components should only be used when Salesforce Lightning does not provide built-in support for the required feature or functionality. {% endhint %}
+{% hint style="info" %} [As outlined in the official documentation](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/intro_benefits.htm), the [Aura component](https://developer.salesforce.com/docs/component-library/bundle/aura:component), custom Aura components should only be used when Salesforce Lightning does not provide built-in support for the required feature or functionality. {% endhint %}
 
 #### Testing:
 

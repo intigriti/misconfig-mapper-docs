@@ -6,10 +6,11 @@ In case signups are not turned off, any user can create an account on the Jenkin
 
 #### Testing:
 
-Navigate to the following route and check if signups are enabled:
+Navigate to one of the following app routes and check if signups are enabled:
 
 ```
 /signup
+/jenkins/signup
 ```
 
 #### Remediation:

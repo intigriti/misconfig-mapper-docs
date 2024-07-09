@@ -18,6 +18,7 @@ Below is a list of all the misconfigurations that have been **documented and aut
 * [Laravel](../services/laravel/)
 * [GraphQL](../services/graphql/)
 * [Freshworks](../services/freshworks-freshservice/)
+* [Salesforce](../services/salesforce/)
 
 {% hint style="info" %}
 A more extensive list can be requested by executing the following command on the provided [CLI tool](cli-tool.md):
@@ -52,9 +53,11 @@ Please do note that currently not every documented misconfiguration has been aut
 * [Laravel](../services/laravel/)
 * [GraphQL](../services/graphql/)
 * [Postman API Platform](../services/postman-api-platform/)
+* [Salesforce](../services/salesforce/)
 
 ## Upcoming Services
 
+* [ ] ServiceNow
 * [ ] Python Flask
 * [ ] Wordpress
 * [ ] Productboard
@@ -63,7 +66,6 @@ Please do note that currently not every documented misconfiguration has been aut
 * [ ] Monday.com
 * [ ] Asana
 * [ ] Favro
-* [ ] Wiki Atlassian
 * [ ] Intercom
 * [ ] Clickup
 * [ ] Basecamp
@@ -71,8 +73,6 @@ Please do note that currently not every documented misconfiguration has been aut
 * [ ] Github
 * [ ] Hubspot
 * [ ] Azure DevOps
-* [ ] Salesforce
-* [ ] Bitbucket
 * [ ] Okta
 * [ ] Sentry
 * [ ] Quip

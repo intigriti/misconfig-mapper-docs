@@ -7,4 +7,4 @@ description: >-
 
 **Misconfigurations:**
 
-1. [Salesforce Misconfigured Objects](salesforce-misconfigured-objects.md)
+1. [Salesforce Lightning Aura Components Enabled](salesforce-lightning-aura-components-enabled.md)

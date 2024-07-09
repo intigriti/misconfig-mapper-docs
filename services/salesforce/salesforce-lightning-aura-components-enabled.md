@@ -1,4 +1,4 @@
-# Salesforce Lightning Aura Component Enabled
+# Salesforce Lightning Aura Components Enabled
 
 #### Description:
 

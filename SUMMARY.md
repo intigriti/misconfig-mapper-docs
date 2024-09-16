@@ -35,6 +35,8 @@
   * [Open User Registration](services/atlassian-jira/open-user-registration.md)
   * [Atlassian Jira Email Visibility](services/atlassian-jira/atlassian-jira-email-visibility.md)
   * [Atlassian Jira Service Desk Open Signups](services/atlassian-jira/atlassian-jira-service-desk-open-signups.md)
+* [AWS S3](services/aws-s3/)
+  * [Misconfigured List Permissions](services/aws-s3/misconfigured-list-permissions.md)
 * [Google Groups](services/google-groups/README.md)
   * [Misconfigured read permissions](services/google-groups/google-groups.md)
 * [Google Docs](services/google-docs/README.md)

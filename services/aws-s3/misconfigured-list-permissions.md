@@ -4,9 +4,9 @@
 
 AWS S3 (Simple Storage Service) buckets are a popular storage service used by software companies and organizations to store public as well as sensitive data.
 
-Because AWS S3 can be used to store sensitive data, AWS allows developers to set up permissions for each individual bucket and object.
+Because AWS S3 can be used to store sensitive data, AWS allows developers to set up permissions for individual buckets and objects.
 
-These permissions (or Access Control Lists) are sometimes overly-permissive and allow unauthorized users to view more data than actually allowed.
+These permissions (or Access Control Lists) are sometimes overly permissive and allow unauthorized users to view more data than allowed.
 
 #### Testing:
 
@@ -25,21 +25,19 @@ You can use the official AWS CLI to test for misconfigured list permissions usin
 $ aws s3 ls s3://{BUCKET_NAME} --no-sign-request
 ```
 
-Output of an AWS S3 bucket with misconfigured list permissions:
+The output of an AWS S3 bucket with misconfigured list permissions:
 ```
 2024-08-31    09:00:00         1337 index.html
                                 PRE downloads/
 2024-08-31    09:00:00         1337 archive.zip
 ```
 
-Output of a secured AWS S3 bucket:
+The output of a secured AWS S3 bucket:
 ```
 
 An error occurred (AccessDenied) when calling the ListObjectsV2 operation: Access Denied
 
 ```
-
-
 
 {% hint style="danger" %}
 Before reporting a potential security misconfiguration, always verify the owner of the bucket and the impact of the vulnerability! Some AWS S3 buckets are meant to be public, some may not even belong to your target!
@@ -60,7 +58,7 @@ To secure your AWS S3 buckets, login to your AWS console and follow the steps be
 <figure><img src="../../.gitbook/assets/aws-s3/2.png" alt=""><figcaption></figcaption></figure>
 
 6. Go back to the **Permissions** tab and scroll down to the **Bucket policy** section
-7. Ensure that you do not have any unwanted or policies enabled
+7. Ensure that you do not have any unwanted policies listed
 8. Additionally, verify that **Block all public access** is enabled (a green checkmark must appear next to it)
 <figure><img src="../../.gitbook/assets/aws-s3/3.png" alt=""><figcaption></figcaption></figure>
 
@@ -70,7 +68,7 @@ If your Access Control Lists take precedence over your Bucket Policies, make sur
 
 #### Potential Impact:
 
-
+A misconfigured AWS S3 bucket can often introduce security risks, data leaks, or other unintended consequences. Especially if the storage bucket is used for storing sensitive data (such as backups, receipts, invoices, etc.).
 
 #### References:
 

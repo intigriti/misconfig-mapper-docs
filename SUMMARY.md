@@ -37,6 +37,8 @@
   * [Atlassian Jira Service Desk Open Signups](services/atlassian-jira/atlassian-jira-service-desk-open-signups.md)
 * [AWS S3](services/aws-s3/)
   * [Misconfigured List Permissions](services/aws-s3/misconfigured-list-permissions.md)
+* [Cloudflare R2](services/cloudflare-r2/)
+  * [R2.DEV Enabled](services/cloudflare-r2/r2-dev-enabled.md)
 * [Google Groups](services/google-groups/README.md)
   * [Misconfigured read permissions](services/google-groups/google-groups.md)
 * [Google Docs](services/google-docs/README.md)

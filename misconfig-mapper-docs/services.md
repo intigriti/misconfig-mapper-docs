@@ -19,6 +19,8 @@ Below is a list of all the misconfigurations that have been **documented and aut
 * [GraphQL](../services/graphql/)
 * [Freshworks](../services/freshworks-freshservice/)
 * [Salesforce](../services/salesforce/)
+* [AWS S3](../services/aws-s3/)
+* [Cloudflare R2](../services/cloudflare-r2/)
 
 {% hint style="info" %}
 A more extensive list can be requested by executing the following command on the provided [CLI tool](cli-tool.md):
@@ -54,6 +56,8 @@ Please do note that currently not every documented misconfiguration has been aut
 * [GraphQL](../services/graphql/)
 * [Postman API Platform](../services/postman-api-platform/)
 * [Salesforce](../services/salesforce/)
+* [AWS S3](../services/aws-s3/)
+* [Cloudflare R2](../services/cloudflare-r2/)
 
 ## Upcoming Services
 

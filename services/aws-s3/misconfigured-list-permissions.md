@@ -46,9 +46,9 @@ Before reporting a potential security misconfiguration, always verify the owner 
 
 #### Remediation:
 
-To secure your AWS S3 buckets, login to your AWS console and follow the steps below:
+To secure your AWS S3 buckets, signin to your AWS Management Console and follow the steps below:
 
-1. Once signed in, navigate to your S3 dashboard
+1. Once signed in, navigate to your [Amazon S3 dashboard](https://console.aws.amazon.com/s3/)
 2. Open your bucket that you'd like to secure or verify access controls for
 3. Open the **Permissions** tab, and click on **Edit** under the **Block public access (bucket settings)** section
 <figure><img src="../../.gitbook/assets/aws-s3/1.png" alt=""><figcaption></figcaption></figure>
@@ -73,3 +73,5 @@ A misconfigured AWS S3 bucket can often introduce security risks, data leaks, or
 #### References:
 
 * [https://blog.intigriti.com/hacking-tools/hacking-misconfigured-aws-s3-buckets-a-complete-guide](https://blog.intigriti.com/hacking-tools/hacking-misconfigured-aws-s3-buckets-a-complete-guide)
+* [https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-control-block-public-access.html](https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-control-block-public-access.html)
+* [https://aws.amazon.com/cli/](https://aws.amazon.com/cli/)
